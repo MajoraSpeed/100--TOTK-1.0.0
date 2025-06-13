@@ -1,0 +1,1929 @@
+- Route 100% de Xdri en Français
+- Le mieux en langue c'est l'Anglais pour les noms des shrines et le reste
+- Pas d'amiibo
+- je mets aussi le liens vers certains tuto dans les splits et si ils sont moches avoir désoler je sais pas en faire
+- La Playliste que Xdri m'a donnée où y a la run celle en 28h12 .link(https://www.youtube.com/playlist?list=PL-wDvpsT8UHFX9Ng7loOZrl5U-r60PBMJ)
+- Pour mettre pause a sa run il faut mettre le jeu en pause puis mettre pause au timer et montrer la version du jeu et laisser la version du jeu pour la prochaine partie de la run
+
+- Intro : 
+  - Intro Clip :
+     notes: Intro Clip normal ou BTT
+     comment: Mettez bien le mod cutsscene skip ou regarder la cutscene sinon les saves seront pas la pour MNF
+     icon: zelda
+- Great Sky Island 1:
+  - Wings : 
+     notes: Dup jusqu'a 52 Wings et aller title
+     icon: chest
+     comment: opti stamina
+     movements: 
+      - [379,1500,-1620]
+      - [385.75,1500,-1649.75]
+      - [379.8125,15000,-1690.4375]
+  - Temple Of Time:
+     notes: Wing FLip et faire Early Sheild sans péter l'épée de légende et scan ToT
+     icon: shrine
+     movements: 
+      - [429.125,1500,-1684.25]
+      - [384.5,1500,-1438]
+      - [417,1500,-1354]
+      - [452.5625,1500,-1310.25]
+      - [452.75,1500,-884.0625]
+  - Master Sword Not Found:
+     notes: Avant de descendre de la wing, save manuelle puis aller faire un QDS mais au dernier menuing on déséquipe l'épée puis on la récup puis on va sur MS puis rusty et enfin drop puis reload à l'intro une fois dans intro Dzuggle MNF et une fois Dzuggle switch rusty puis Drop
+     icon: MNF
+  # Warping to travel medallion. Order of the coordinates are the same as you would enter with the `coord` property
+  - _Warp::TravelMedallion<379.8125,15000,-1690.4375>:
+     icon:
+     comment: je mets travel médaillon pour le respawn pour FDC EA
+  - _Shrine::Gutanbac:
+     icon: Ascend
+     notes: une fois dans le shrine on lance la rusty on recup MNF en 1er puis rusty on kill Billy et QDS puis finish Ascend
+  - _Shrine::Inisa:
+     icon: Fuse
+     movements:
+      - [733.8125,1500,-1351.4375]
+      - [706,1500,-1351]
+      - [26.07, 1527.75, -1503.60]
+     notes: Faire EB version EA puis enter fuse et finish fuse
+     comment: quand on arrive dans fuse on drop puis fuse une bombe au sheild puis on récup l'espadon et équipe avec + puis fuse roche sur lui puis dup 6 bombs après prendre tous les fire fruit prendre chest et dup bombs jusqu'a 23 et dup sheild et tiré flèche
+  - _Shrine::Ukouh:
+     icon: UH
+     notes: Quick FUH/Roms FUH et prendre Skew à la fin de UH 
+  - _Shrine::Nachoyah:
+     icon: RECALL
+     notes: ToT avec Skew puis tp Recall fuse bomb et finir recall
+     movements: 
+      - [452.75,1500,-884.0625]
+      - [453,1500,-743.5]
+      - [367.4375,1500,-1750.5]
+      - [389.63, 2417.91, -1661.45]
+  - _Warp::Shrine::Ukouh
+  - Great Sky Island 1 Finish:
+     icon: TOUR
+     movements:
+      - [452.75,1500,-884.0625]
+      - [453,1500,-743.5]
+      - [453.625,1500,-635.75]
+     notes: Soit prendre Skew soit faire sans Skew et ASF à la porte ToT skew before Godesse et scan end
+- Hylian Sheild:
+  - Rocket:
+     color: blue
+     icon: chest
+     notes: Go East vers le chest sans ASF et après Dup 12 rocket et wing dès que possible puis take water frut
+     movements:
+      - [461.25,1500,-631]
+      - [887.125,500,-542.125]
+  - Pruha:
+     icon: zelda
+     notes: Go vers Nord-Ouest avec Pocket Rocket et Asf et talk Pruha
+     movements:
+      - [-253.47880653669836,500,151.0886523033223]
+      - [-242.35380653669836,500,151.7761523033223]
+  - _Shrine::Kyononis:
+     notes: pocket rocket jusqu'a ce qu'il se pete puis asf et switch sheild et faire 2 mapZuglle de rusty puis drop mnf pour recup et scans shrine
+     icon: shrinescan
+  - Main Quest:
+     notes: setup pocket rocket puis aller au mec en ASF après avoir passé 550 en hauteur
+     coord : [-336.125,500,846.875]
+     icon: zelda
+  - WST:
+     notes: Aller à la cave pour Hylian SHeild et pocket rocket puis wing et pendant trajet sur wing mettre a 1 de dura l'épée
+     comment: une fois le bandeaux de l'épée qui va broke taper 2 fois. Et une fois dedans mettre l'autre sheild puis + ensuite drop équipe sur la mnf et drop sheild ++ drop mnf recup rocket club puis mnf puis sheild 
+     icon: WST
+     movements:
+      - [-144,500,1128]
+  - Hylian Sheild:
+     notes: Descent dans la cave et faire 8 Map Zuggle de MNF WST et rééquipe la mnf WST à la fin et déséquipe sheild et active le chest
+     coord: [-148.4375,500,1175.875]
+     icon: HYLIAN-SHEILD
+- Paraglider:
+  - _Warp::Shrine::Kyononis:
+     color: Blueviolet
+     notes: Sneak puis Zuggle 2 Hylian Sheild puis équipe Hylian sheild et récup le sheild drop ( faire ca 2 fois) et une fois fais des sneaks et drop sheild puis recup tous les Hylian sheilds et Zuggle 1 Hylian Sheild puis Setup Pocket rocket et switch sur MNF puis dans les menus défuse rusty
+     comment: After setup Pocket rocket tp Kyonosis
+  - _Tower::LookoutLanding:
+     notes: Pocket Rocket to Pruha et active Tower et TP Ascend
+     movements:
+      - [-254.5,500,150.625]
+      - [-298.75,500,142.375]
+- The Gerudo Assault:
+  - _Warp::Shrine::Gutanbac:
+     color: Yellow
+  - _Korok::GSI06:
+     notes: Après la TP pocket Rocket vers le korok mais avant prendre une zonai charge et le pant de froid puis ascend et faire le koroks et équip le pant de froid
+     movements:
+      - [765.0625,1500,-1337.5]
+      - [760.46,1602.80,-1341.14]
+  - Arrow Chest:
+     notes: Après le Korok pocket rocket vers le Dispawnser d'artefacte puis une fois passé au sol y a un bat avec un chest et aussi utilisé la paravoile
+     coord: [736.375,1500,-1204.75]
+     icon: chest
+  - _Tear::04:
+     notes: Sortir avec la porte a coter et récup Tears et au dessus de l'eau de la Tears Dup 4 Zonai Charge
+  - _Korok::PF11:
+     notes: Pocket Rocket Sud et tirer flèche dans le gland
+  - _Well::SouthNabiLake
+  - _Shrine::Jochisiu:
+     movements:
+      - [985.5,500,-1836]
+      - [930.89,500,-1903.42]  
+     notes: Arrivé a coter du Shrine activer le lance gel avec arrow puis récup flèche ensuite faire 3 plaque empiler puis les ramener et faire fondre a la bonne tailles les plaques et allumer le feu avec fire fruit. Après Speak golem pocket rocket al'exterieur et remonté et récup fleur de miasme et finir shrine après avoir pris le chest avec pocket rocket
+     comment: Pocket rocket avec aucune stamina pour ASF et visé mont Géminé après avoir discovery le well 
+- Caput Draconis:
+  - _Boss::Stalnox:
+     color: cyan
+     movements:
+      - [934.75,500,-1942.25]
+      - [901.5,500,-1925]
+      - [764.25,500,-1964.25]
+     notes: Pocket Rocket Sud puis lancer rusty equipe MNF cut arbres et recup le fagot ensuite refaire un Pocket Rocket en equipant une rusty sword et en FE le même sheild ensuite prendre Oeuf dans le gros arbre après saute et paravoile pour faire 2x dup de 5 zonai charge puis aller vers Ouest et récup Gold Apple et apple et use une zonai charge puis Pocket Rocket vers Stalnox
+  - _Boss::Talus::Battle:
+     movements:
+      - [601.5,500,-1929]
+     comment: Pocket Rocket vers le Talus et détruire sa stone
+  - Ancien Blade:
+     movements:
+      - [457.875,500,-2012.25]
+      - [265.625,500,-1650.125]
+     icon: chest
+     notes: Après avoir pris le chest sortir une wing dans l'eau et prendre le chest dans l'eau qui au Sud Ouest
+     comment: Pocket Rocket Ouest et récup 4 fruit lotus puis Pocket Rocket sans stamina pour ASF jusqu'au chest au Nord Ouest
+  - Rordrac Shard:
+     icon: chest
+     notes: Setup Pocket Rocket vers le Rordrac qu'on voit de loin et après etre partie de l'eau aller sur terre et vider sa stamina pour lancer PR et ASF vers le Dragon
+     movements:
+      - [230,500,-1650]
+      - [226,500,-1725]
+      - [-6,500,-2270]
+     comment: Quand on est sur la corne taper avec l'épée et récup la shard
+  - Topaz Rod:
+     icon: MNF
+     movements:
+      - [295,500,-2304]
+     comment: Après avoir recup la shard PR foule Ouest et tué avec un jump slash le mob
+     notes: Après avoir récup l'arme. 1 dup de 1 shard et 4 lotus 2 fois puis dup 3 fois 3 cornes après dup 5 lotus puis dup Ancien Blade Golden apple bois et fleur de miasme
+  - Fairy Dup:
+     icon: fairy
+     comment: Durant le pocket Rocket refeal la batterie normalement y en a 9 a l'île
+     movements:
+      - [934.25,1500,-2134.75]
+     notes: Après dup Pocket Rocket jusqu'a l'île. Après avoir récup la fée dup Golden Ancien Blade Fleur de miasme et la fée et redup fleur de miasme Ancien Blade bois après aller plus loin et dup 6 fées
+  - Cooking Pot:
+     movements:
+      - [1229,500,-2355.25]
+     notes: Pocket Rocket Sud Ouest et tuer tous les bokos puis après faire 3 plats speed 3 (1 shard et 4 lotus)
+     comment: Si l'épée se broke sortir bow sauté et équipe avant une autre arme et équipe rusty pour dup et équipe la rusty dup
+     icon: cook
+  - _Cave::Enter::TobiosHollow:
+     notes: Après avoir cook les 3 plats, eat 1 seul et resetup un Pocket Rocket avec meme sheild et rusty puis enter cave après on va voir un livre on le lit et on defuse la rusty puis la déséquipe on prends les 2 zonai spear et derière y a 1 truffe on la prends aussi
+     comment: Dans la cave récup 1 champis lumineux
+  - Enter Utojis:
+     icon: SHRINE2
+     coord: [1218.44, 215.78, -2543.16]
+     notes: DU coup on se calle sur le cercle on fuse une wing a la spear et on lance sur le rond en face
+  - _Shrine::Utojis:
+     notes: En descendant du truc on refais pocket rocket sur le meme sheild et on équipe rusty pour fuse rocket et a l'interieur du shrine on récup le chest
+  - Caput Draconis:
+     icon: zonai-orb
+     movements:
+      - [1298,1500,-2909]
+      - [ 1390.92, 1522.46, -3239.02]
+     notes: Pocket Rocket vers Caput Draconis et s'arreter sur une île pour dup 1 grande zonai charge et un champi brillant puis dup champi orbe et 3 fleurs de miasme et ensuite go foule sud sur Caput Draconis et use le le device despenser avec 5 petite zonai charge et récup tout
+  - _Shrine::Jokuu:
+     notes: Après avoir récup tout go Nord Est et Pocket Rocket et une fois sortie visé à vers le Sud Ouest et après une fois le mur touché visé le sud et aller dans le trou pour récup le shrin
+     comment: Récuperer le chest dans le shrine
+     movements:
+      - [1417,1500,-3219]
+      - [1427,1500,-3303.5]
+      - [1376.41, 1548.01, -3339.86]
+- A deal with he statue Quest:
+  - _Warp::Tower::LookoutLanding:
+     color: green
+  - Duplication Atéfact Soneau:
+     notes: Aller sur le pillier à coter de la longue vue puis dupliquer de façon opti 20 cart ; 365 stick; 39 wings; 4 fan si y en pas assez; 185 rocket; 226 canon et 30 batteries
+     icon: zonai-dup
+     movements:
+      - [-269.875,500,121.5]
+      - [-238.4375,500,113.125]
+  - Régional Phenomena Quest:
+     icon: main-quest
+     notes: Dup au total 16 fées 19 Diamants 12 grandes orbeaux soneau et 3 ancien blade an allant vers la boutique en pocket rocket et apres vendre 15 diamants après buy apple et arrow et la tenu et aller parler a pruha 
+     movements:
+      - [-205.875,500,86.3125]
+      - [-252.625,500,151.625]
+     comment: avant d'aller parler a Pruha aller ouvrir le bunker aller voir pruha en pocket rocket
+  - Start Quest Snap :
+     icon: main-quest
+     notes: Parler a Faras quand josha est enervé sur lui et lancé la quete
+     comment: descendre apres avoir parlé a pruha 
+     movements:
+      - [-253.6875,150,140.4375]
+      - [-253.4375,150,150.0625]
+  - A deal with the statu Quest:
+     icon: quest
+     notes: Après avoir parlé a Josha et faras sortir avec la porte et a droit a coté d'un pilier en bois sortir un stick et aller dessus en spammant B pour eviter de trop clip
+     comment: reprendre un receptacle de stamina 
+- Depths 1:
+  - _Boss::Talus::Stone::Depth:
+     color: chocolate
+     notes: une fois environs -222 132 et -354 atteinds avec la mini map pocket rocket en utilisant la paravoile jusqu'a -147 016 -349 environ puis revenir in bounce avec un stick puis recuperer 3 large poes. Ensuite partir full sud avec pocket rocket jusqu'a 072 en hauteur et récuperer un large poe vers le nord sur l'arbre et après a l'est tuer le talus 
+     movements:
+      - [-222,-1000,129]
+      - [-147, -1000,017]
+      - [-148, -1000,-009]
+      - [-141,-1000,-009]
+      - [-133,-1000,-024]
+      - [-115,-1000,-074]
+      - [-139,-1000,-063]
+      - [-136,-1000,-047]
+      - [-003,-1000,-023]
+     comment: récuper toutes les pierres du talus avec l'énérgie pour la batterie
+  - _Lightroot::Nisoij:
+     notes: Après partir en pocket rocket full a l'Ouest et récuper sur une statue une lance puis sortir l'arc avec la flèche et sauté open le menu equipe la lance unpause récup la lance drop au sol pause equipe la lance recup puis equipe l'autre lance et drop l'épée avec la roket unpause recuper la lance drop puis resauté pause equipe la lance recuper puis aller sur la lance a gauche et drop rusty sword puis récup la lance et l'équipé et après refaire un pocket rocket toujours avec le sheild équipé et pas un autre
+     comment: Après avoir refais le pocket rocket aller vers le point jaune et activer la racine
+     movements:
+      - [-0065,-1000,-0046]
+      - [-240.75,-500,-373]
+  - _Boss::Talus::Stone::Depth:
+     notes: Pocket Rocket full Sud en optimisant avec la paravoile
+     coord: [-0113,-1000,-802]
+  - _Boss::Frox:
+     notes: Après avoir tuer le talus pocket rocket full Est et faire attention au arbres dans le noir et tuer le Frox en rammassant les zonaite
+     comment: tirer une flèche dans son oeil pour le stun
+     movements:
+      - [0170,-1000,-0874]
+  - _Lightroot::Stakijat:
+     notes: Après avoir tuer le Frox use une grande orbe soneau vers Sud Est en Pocket Rocket
+     movements:
+      - [0211,-1000,-865]
+      - [343.375,-500,-1008.25]
+  - Plains Bargainer Statue:
+     movements:
+      - [458.25,-500,-796.6875] 
+     icon: statue
+     notes: Partir en pocket rocket vers le Nord Est en optimisant le trajet
+     comment: Parler a la statue et ne rien prendre
+  - _Boss::FluxConstruct::I::Depth:
+     notes: Partir en pocket rocket sans parler a la statue toujours Nord Est
+     movements:
+      - [0716,-0642,-0642]
+     comment: Atterire sur sa tête 
+  - _Boss::Hinox::Red::Depth:
+     notes: Partir en direction du Nord Est puis nord après avoir taper le mur si il est devant la direction et avec le pocket rocket optimiser le déplacement
+     movements:
+      - [366,-1000,-0007]
+  - Applean Grove:
+     notes: Après avoit tuer l'Hinox partir en pocket rocket vers le Nord Est en utilisant une grande orbe soneau et récuper les 4 poes
+     movements:
+      - [0481,-1000,0168]
+      - [0495,-1000,0186]
+      - [0537,-1000,220]
+      - [0529,-1000,0206]
+      - [529,-1000,196]
+     icon: lieux
+     comment: Optimiser le pocket rocket avec paravoile ( 40 poes )
+  - _Lightroot::Oyimay:
+     notes: Pocket rocket vers le Nord Est et activer la racine
+  - _Lightroot::Sinonoyk:
+     notes: Pocket Rocket vers l'Ouest puis une fois le mur noir visible pocket rocket vers sud Ouest et remonté apres vers Nord Ouest pour récuper les poes et pocket rocket vers la racine
+     movements:
+      - [0070,-1000,0427]
+      - [-0086,-1000,0346]
+      - [-0096,-1000,0328]
+      - [-106,-1000,0349]
+      - [-119,-1000,383]
+      - [-204.3125,-500,450.75]
+     comment: ( 50 poes )
+  - _Boss::Frox:
+     notes: Après avoir scanné la racine vers L'ouest et tuer le Frox en récuperant ses zonaites
+     movements:
+      - [-569,-1000,210]
+  - _Lightroot::Gadohsi:
+     notes: Pocket Rocket vers Nord Ouest en utilisant une grande orbe soneau et scan la racine
+     comment: Utilisé la paravoile pendant le trajet
+  - Gustaf Canyon Mine:
+     notes: Pocket Rocket Sud Ouest est passé par la mine en paravoile
+     icon: lieux
+     movements:
+      - [-976.5,-500,247.5] 
+  - _Boss::Stalnox::Depth:
+     movements:
+      - [-1093,-1000,47]
+     notes: Pocket Rocket dans la meme direction et tuer stalnox
+     comment: Utiliser une flèche dans l'oeil pour le tuer si il est pas mort direct en faisant un coup sur son oeil avant
+  - _Boss::Stalnox::Depth:
+     notes: Toujours dans la même direction pocket rocket et tuer le stalnox
+     comment: Durant le trajet le lieux "Giant's Grove" doit etre découvert
+     movements:
+      - [-1177,-1000,-115]
+  - _Lightroot::Iayusus:
+     notes: Pocket Rocket vers le Sud Est et faire gaffe au mur durant le trajet
+     movements:
+      - [-792.75,-500,-347.5]
+      - [-785,-500,-433.5]
+  - Caméra:
+     icon: snap
+     notes: Parler a Faras après la racine et snap la statue et lui montré
+     movements:
+      - [-806,-1000,-451]    
+  - Miners Top:
+     icon: CHEST
+     movements:
+      - [-1077,-1000,-0557]
+     notes: Pocket rocket en direction de Daphnes Canyon Mine pour le haut du mineur bien être bas pour avoir ce lieux et récuper le chest
+  - _Boss::Hinox::Red::Depth:
+     notes: Pocket Rocket vers le Sud en direction de l'Hinox
+     movements:
+      - [-1070,-0458,-0821]
+  - _Boss::Frox:
+     movements:
+      - [-0794,-1000,-1089 ]
+     notes: Pocket Rocket Sud Est et une fois proche du Frox le prendre en photo puis le tuer
+     comment: Zommer avec la caméra si besoin et aussi récuper les zonaites et flint 
+  - _Lightroot::Nihcayam:
+     notes: Poclet Rocket en utilisant une grande orbe d'énergie vers le Nord Est
+  - _Boss::Talus::Stone::Depth:
+     movements:
+      - [-0460,-1000,-1005 ]
+     notes: Pocket Rocket vers le Sud Est 
+  - _Lightroot::Netinet:
+     notes: Pocket Rocket vers l'Est et activer la racine
+  - _Boss::Hinox::Red::Depth:
+     movements:
+      - [-119.875,-500,-1223.375]
+      - [-138.125,-500,-1242]
+      - [0046,-1000,-1335]
+     notes: Récuper 2 poes X5 
+  - _Lightroot::Nuzimak:
+     notes: Pocket Rocket vers le Sud Ouest
+  - Gorve Of Time:
+     movements:
+      - [-381.5,-500,-1556.5]
+     notes: Pocket Rocket  full Ouest
+     icon: lieux
+     comment: Bien attendre d'avoir le nom du lieux en grand découvert
+  - _Boss::Frox:
+     movements:
+      - [-0293,-1000,-1814]
+     notes: Pocket Rocket vers le Frox et récuperer les zonaites
+     comment: Stun le Frox avec une flèche dans l'oeil
+  - Large Zonaite:
+     icon: zonaite-chest
+     movements:
+      - [-649.3125,-500,-1785.8125]
+      - [-658,-500,-1793.6875] 
+      - [-0799,-1000,-1920]   
+     notes: Prendre 2 grand poes et aller chercher le coffre en haut de la mine
+  - Kohga 1:
+     icon: kohga
+     movements:
+      - [-0803,-1000,-1928] 
+      - [-735,-500,-1860.5]
+      - [-0815,-1000,-1935]
+     notes: Après avoir pris le chest aller prendre Autobuild et faire fuse 2 sticks un posé normal au sol et un autre qui est vers le haut puis mettre en favoris la construction et fight Kohga et récuperer le chest après le combat
+  - Steward Construct:
+     notes: Parler au golem a gauche pour prendre la stèle
+     icon: chest
+     movements:
+      - [-816,-5000,-1959]
+  - Bundled Item Duplication:
+     comment: Si l'oeuf ne se casse pas il faut turn la cam vers la gauche jusqu'a ce qu'il explose et pour uncull link en gros qu'il soit visible il faut turn la cam a droite en regardant des memorys
+     notes: .link([Liens de la dup durant la run de Xdri pour que vous voyez a quoi ça ressemble]https://youtu.be/lhG15LcwAmo) .link([Lien du diapo BID]https://docs.google.com/presentation/d/1_bsHBX-od2V1wXxUn52OarLQw6rCl6nM-5Rxu14c4q8/edit?slide=id.p#slide=id.p) Et il faut dup 510 Large Zonaite, 160 Diamonds, 180 Rubys, 180 Fairies, 120 flint, 100 Fire Fruit, 60 Woods, 60 Zonaite, 35 Ancient Blades, 20 Dazzlefruit, 20 Splash Fruit, 10 Brightcaps, 10 ambers, 10 Sundelions, 6 Golden Apples
+     movements:
+      - [-834,-1000,-1915]
+      - [-833,-500,-1928.625]
+      - [-859,-523,-1902]
+      - [-853,-1000,-1929]
+     icon: BID
+  - Forge:
+     notes: .link([Execution du glitch par Xdri]https://youtu.be/eOGLgGv6DKM)
+     icon: crystaux
+     coord: [-861.75,-500,-1939.25]
+     comment: Avoir 2500 crystal a la fin
+  - Recursed JetPack:
+     icon: Jetpack
+     notes: Je vous mets un clip pour le Jetpack de la run de Xdri car a l'écrit ca sera juste un commentaire de 40 pages 
+     comment: .link([Jetpack setup by Xdri]https://www.youtube.com/watch?v=nL6kRSp5CJs) .link([Et le diapo pour les explications]https://docs.google.com/presentation/d/1xl_yAa2wLSV68cfRu6mfQHc90ALUATcG_oeM9y_4gXM/edit?slide=id.g33b00b11ccb_0_5#slide=id.g33b00b11ccb_0_5)
+  - Dzuggles MNF:
+     icon: MNF
+     notes: Avant de Dzuggle racheter des crystaux puis drop Zonaite sword et zonaite spear et apres faire les 8 Dzuggles et rééquipé lance de voaygeur sheild et wooden bow et après les 8 Dzuggles equipe lance ++ drop la lance et dup le max de lance possible
+     movements:
+      - [-858,-1000,-1950]
+      - [-866,-1000,-1937]
+  - Secret Spring Of Revival:
+     icon: lieux
+     notes: Après avoir fini la dup pocket rocket partir Sud Ouest puis Ouest pour récuper un grand poe et larg poe
+     movements:
+      - [-902,-500,-1965]
+      - [-949,-500,-1972.5]
+      - [-1032,-500,-1915.875]
+     comment: Les poes sont dans l'eau il suffirat d'aller vers l'Est pour revenir sur un sol et aussi pendant le trajet i faut utiliser le boost du Jetpack avec la pravoile
+  - _Lightroot::Kogoir:
+     comment: ( 145 poes ) 
+     movements:
+      - [-1159.75,-500,-1813.875]
+      - [-1442.4375,-500,-1616.4375]
+     notes: Pocket Rocket vers le Nord Ouest et récuper le grand poe puis aller vers la racine grâce au Jetpack
+  - _Lightroot::Muustust:
+     notes: Pocket  Rocket vers les 2 arbres pour récuper un large poe et un poe puis aller en jetpack/pocket Rocket a la racine
+     movements: 
+      - [-1452.25,-500,-1527.5]
+      - [-1423.1875,-500,-1352]
+     comment: ( 151 poes )
+  - Majora's Mask:
+     icon: CHEST
+     notes: Aller Nord Est au colisé. Tué les 2 1er Lynels avec des Ancients Blades, récuper les flèches du 3ème Lynel et tuer le 4ème lynel avec la lance et tuer le dernier lynel avec une Ancients Blade et sur le stuff du 4ème lyenl recuper les cornes et flèches et faire un New Item Desync avec l'arc de Lynel le dup jusqu'a 4 dans l'inventaire et recup le chest après avoir tout fais
+     comment: Le New Item Desync fonctionne de sorte a déséquipé l'arc equipé et prendre l'arc puis faire + trier l'inventaire et équipé un autre arc puis ensuite drop l'arc équipé avec celui de golem et équipe le mask
+- Hyrule Feilds:
+  - _Warp::Tower::LookoutLanding:
+     color: coral
+  - Upgrade Battery:
+     movements:
+      - [-218.5,150,190]
+     icon: lieux  
+     notes: Pocket Rocket au Golem pour la battery et acheter les 25 cellules
+  - Camera Work in the Depths Quest:
+     icon: main-quest
+     coord: [-253.5,150,150.25]
+     notes: Retourner voir Faras avec pocket Rocket et lui parler
+  - Mabe Village Ruins:
+     icon: lieux
+     notes: Aller vendre au shop 165 Diamands et acheté les flèches puis aller au Village ruins avec Jetpack/Pocket Rocket
+     movements:
+      - [-206.3125,150,86.5625]
+      - [-70,150,-166]
+  - _Well::MabeVillageRuins:
+     notes: Entrer dans le Well recuper un Glow Fish et ascend pour sortir
+  - _Cave::Enter::RanchRuins::B:
+     notes: Rentrer en Pocket Rocket puis aller direct à gauche
+  - _Bubbulfrog::RanchRuinsCave:
+     notes: Tuer le Frog avec l'arc de Lynel et récuper 2 grandes graines lumos
+  - _Cave::Exit::RanchRuins::A:
+     notes: Sortie de la grotte a gauche 
+  - _Korok::LL54:
+     notes: Pocket Rocket et Jetpack vers Koroks et virer les feuilles avec des canons fuse avec des flèches
+  - _Korok::LL56:
+     notes: Pocket Rocket et paravoile vers Korok
+  - _Shrine::Jiosin:
+     notes: Pocket Rocket dans le shrine
+  - _Korok::HF07:
+     notes: Aller en Pocket Rocket tirer un ruby devant le gland
+  - Bring Peace to Hyrule Feilds:
+     notes: Aller en pocket rocket a l'orde de monstre et mettre 2 flèches de ruby
+     movements: 
+      - [-446.25,150,-623.75]
+     icon: monster-orde
+  - _Korok::LL60:
+     notes: Pocket Rocket vers le korok et faire attention que le lieu soit découvert
+  - _Shrine::Susuyai:
+     notes: Pocket Rocket vers Nord Ouest et dans le shrine pocket rocket puis tier flèche avec bomb sur la rembarde et finir 
+  - _Korok::HF22::Start:
+     notes: Coller une roue sur le korok puis save en favoris le plan et partir vers son pote en pocket rocket
+  - _Korok::HF13
+  - _Korok::HF22::End:
+     notes: Finir le trajet ave jetpack
+  - _Well::AquameLake:
+     notes: Passer a coter pour le découvrir
+  - _Korok::HF32:
+     notes: Pocket Rocket et Jetpack to Korok
+  - _Korok::HF39:
+     notes: Pocket Rocket vers le socle de départ et aller dans le cercle
+  - Bargainer Statue Fragment:
+     notes: Pocket Rocket vers Mag et faire exploser les roches avec des pierres 
+     movements:
+      - [-569.5,150,-1519.5]
+      - [-596,150,-1553]
+     comment: Puis parler a la statue
+     icon: npc
+  - _Korok::HF58::Start:
+     movements:
+      - [-896,-100,-1821]
+     notes: Pocket Rocket vers Sud Ouest récuper 3 glands a l'arbre proche du feu du veille homme de botw
+  - _Korok::HF57:
+     notes: Faire le korok ascend et s'y rendre avec le jetpack
+  - _Korok::HF58::End:
+     notes: Pour remonter utiliser Pocket Rocket et manger un plat de vitesse 3 une fois a coter du camp des korokset enlever l'ABCS
+  - _Cave::Enter::ShrineofResurrection
+  - _Bubbulfrog::ShrineofResurrection:
+     notes: Rentrer dans la cave avec Jetpack casser une caisse pour arrow après avoir tuer le Frog 
+  - Schéma Stone:
+     icon: CHEST
+     movements:
+      - [-1129,100,-1912]
+     notes: Prendre la banane et tuer le Yiga et récuper sa banane et son rubi
+  - _Korok::HF68::Start:
+     notes: Pour sortir de la cave Ascend 2 fois puis pocket rocket vers Sud Ouest
+  - _Korok::HF68::End:
+     notes: Pocket Rocket  avec le Korok en abcs vers le Sud
+  - Fruit de Glace:
+     movements:
+      - [-1144.5,150,-2120]
+     icon: cryo-fruit
+     notes: Utiliser Pocket Rocket et récuper les 3 fruits vers l'Est
+  - _Cave::Enter::RiveroftheDeadWaterfall
+  - _Bubbulfrog::RiveroftheDeadWaterfallCave:
+     notes: Le frog est en haut et rentrer avec jetpack dans la cave
+  - _Shrine::Tadarok:
+     notes: Pocket Rocket dans le shrine avec Jetpack
+  - Royal Claymore:
+     icon: MNF
+     coord: [-1287.25,150,-2222.75]
+     notes: Pocket Rocket vers la pierre où le veille homme était dans botw et drop une lance qui n'est pas équipé et le récuper 
+  - _Korok::HF72
+  - _Korok::HF67:
+     notes: Utiliser une wing et la mettre en dessous du Korok puis utilisé recall
+     comment: utilisé pocket rocket et Jetpack Est
+     movements:
+      - [-1077.0625,150,-2044.8125]
+      - [ -1086.07, 251.54, -2050.02]
+  - Banana Men:
+     icon: npc
+     movements:
+      - [-976.75,150,-2020.5]
+      - [-977.75,150,-2025.25]
+     notes: Acheter 34 Bananes au mec et avant de lui acheter manger plat de speed 3 
+     comment: Utiliser pocket Rocket et Jetpack vers Est
+  - _Korok::HF60:
+     notes: Pocket Rocket avec Jetpack sans tuer le yiga vers Nord Est
+  - _Korok::HF65:
+     notes: Pocket Rocket vers le sommet de ToT
+  - Tissu Nostalgique:
+     movements:
+      - [-0811,100,-1963]
+     icon: CHEST
+     notes: Descendre en mode dive la où y a le chest a la place du vieux de BotW
+  - _Korok::HF64:
+     notes: C'est un ballon dans la salle au dessus du  chest de l'arc de BotW
+  - Snap Statu:
+     coord: [-821.5,150,-2017.5]
+     icon: camera
+     notes: Parler a la statu pour lancer la quete "A Call From the Depths"
+  - _Korok::HF54:
+     notes: Aller au Korok en pocket rocket et Jetpackvers le Nord Est
+  - Gatepost Town Ruins:
+     notes: Aller avec pocket rocket et jetpack vers Nord Est
+     movements:
+      - [-548.5,150,-1569]
+      - [-541.5,150,-1443.5]
+     icon: lieux
+  - Kolomo Garrison Ruins:
+     icon: lieux
+     notes: Jetpack et pocket rocket vers Nord Est
+     coord: [-464,150,-1273]
+  - _Korok::HF31:
+     movements:
+      - [-517.625,150,-1205.25]
+      - [-511.25,150,-1177.25]
+     notes: Pocket rocket/jetpack vers Nord Ouest
+     comment: Link avec arc sortie fait le rock
+  - _Korok::HF28:
+     notes: Pocket rocket vesr Nord Ouest
+  - Exchange Ruins:
+     icon: lieux
+     notes: Pocket Rocket et Jetpack vers le Nord Ouest
+     movements:
+      - [-758,150,-860]
+  - Addison:
+     movements:
+      - [-714.625,150,-879.875]
+      - [-0678,100,-0864 ]
+     notes: Prendre l'épieux le mettre dans le sol et le collé au paneau puis attendre un peu avant de parler a Addison
+     icon: npc
+  - _Shrine::Mayachin:
+     notes: Pocket Rocket visé la plaque a gauche avec des bombes fuse au flèche 
+  - _Tower::HyruleField:
+     notes: Pocket Rocket/Jetpack vers le Sud Ouest 
+     comment: Scan la tour
+- Gerudo Sky:
+  - South Hyrule Sky Archipelago:
+     color: aquamarine
+     movements:
+      - [-780,1500,-1440]
+     notes: Pocket Rocket/Jetpack Full Sud
+     icon: lieux
+  - _Korok::HFS02:
+     notes: Utiliser des flèches avec canon fuse pour virer les feuilles et soulever le rock
+     comment: Pocket Rocket/jetpack full Sud
+  - Old Map Chest:
+     coord: [-0816,1000,-1591 ]
+     icon: CHEST
+     notes: Couper la corde avec l'arc en allant vers le Nord puis vers l'Ouest une fois tomber de lîle 
+  - Sage Will:
+     coord: [-0954,1000,-1736]
+     icon: CHEST
+     notes: Pocket rocket vers le Sud Ouest l'île un peu plus haut puis vider l'eau en restant un peu longtemps avec UH puis use recall pour tenir et open le coffre
+  - Device Dispenser:
+     icon: Dispenser
+     movements:
+      - [-1212,1500,-1602]
+     notes: Pocket Rocket pour le decouvrir vers le Nord Ouest
+  - Shrine Crystal:
+     coord: [-1345.5,1500,-1384]
+     notes: Pocket Rocket vers la commande qui bouge la plateforme faire 3 fois vers le bas puis une fois a gauche et prendre le crystal pour la quête puis créer une copie du setup abcs korogu pour uh le crystal sur lui et le save dans les favoris et le setup ABCS
+     icon: Crystal
+  - Old Map Chest:
+     movements:
+      - [-1274,1500,-1448.5]
+      - [-1253,1000,-1381]
+     icon: CHEST
+     notes: retourner a la commande et faire 2 coups vers le haut puis a l'aide de recall recuper le coffre en coupant la corde avec une lfèche
+  - _Shrine::Jinodok:
+     notes: Pocket Rocket et scan le shrine
+  - Old Map Chest:
+     icon: CHEST
+     coord: [-1454,1500,-1582.5]
+     notes: Pocket Rocket vers l'Ouest Sud Ouest
+  - _Korok::HFS01:
+     notes: Pocket Rocket vers l'île au Nord Est
+  - _Boss::FluxConstruct::II: 
+     notes: Descendre du truc et aller sur la tête du golem direct le tuer et récuper le chest
+  - Ancient Tablet:
+     notes: Pocket Rocket vers le Sud Est et snap la tablette
+     coord: [-1241,1500,-1938]
+     icon: snap
+  - East Gerudo Sky Archipelago:
+     icon: lieux
+     coord: [-1658,1500,-2098]
+     notes: Pocket Rocket vers le Sud Ouest
+  - _Shrine::Rakashog:
+     notes: pocket rocket vers le shrine et setup un stick avec Zonai Glitch Storage en faisant A et B en ayant voulu sortir un stick au prealabe et du coup en entrant dans le on ouvre le menu et sort un stick puis on clip et on va a droite en pocket rocket escalader un mur invisble après avoir passer le plafond invisble et resortir un stick au dessus du monk
+  - Snap Towards Smiling Spectacle Rock:
+     icon: snap
+     coord: [-1845.375,1500,-2112.125]
+     comment: pocket rocket vers le Sud Ouest 
+     notes: Vers le sud-ouest et vers le bas pour former un visage ; faire attention qu'un équipement n'est pas la cible de la photo
+  - Snap Towards Sand Sinkhole:
+     notes: Vers le gouffre de sable près des statues des héroïnes ; zoomez à fond
+     icon: snap
+  - Device Dispenser:
+     icon: Dispenser
+     coord: [-1774.25,1500,-2018]
+     notes: Pocket Rocket vers le Nord Est passé a coter du Dispenser en paravoile 
+  - _Korok::GCS01:
+     notes: Pocket Rocket vers le Nord Ouest et commencer le koroks avec jetpack
+  - _Korok::GCS01
+  - Sage Will:
+     coord: [-1959,1000,-1813 ]
+     icon: CHEST
+     notes: Pocket Rocket vers le chest et bullet time et tirer 3 ou 2 flèches fuse avec des fruits de lumières
+  - Old Map Chest:
+     icon: CHEST
+     notes: Pocket Rocket un peu plus loin puis revenir en arrière et le chest est la 
+     coord: [-1956,1000,-1810]
+  - Cart Slide to Satori Mountain:
+     icon: CS
+     notes: Revenir en haut avec pocket Rocket puis etup Cart Slide vers le Nord Ouest jusqu'au Golemx Niveau III
+     movements:
+      - [-1972.75,1500,-1800.25]
+      - [-2286,1500,-418]
+     comment: Une fois au dessus de Golemax recuper l'espadon et equiper une lance et regarder si le lieux a bien été decouvert
+  - _Boss::FluxConstruct::III:
+     notes: Si besoin uh le bloc principale pour faire tomber le golem et le tuer et recup le chest
+  - Cart Slide to Gerudo Highlands Tower:
+     icon: CS
+     notes: Setup Cart Slide vers le Sud Ouest
+     coord: [-3804,150,-1190]
+  - _Korok::GH26
+  - _Cave::Enter::MeadelasMantle:
+     notes: Avant de rentrer Dup Hylian Sheild si besoin et refaire un Pocket rocket et rentrer dans la cave
+  - _Bubbulfrog::MeadelasMantleCave
+  - _Tower::GerudoHighlands:
+     notes: Prendre les 3 fruits de glaces puis setup une wing en dessous du bois et ascend pour scan la tower
+  - Ancient Tablet Snap:
+     coord: [-3607.5,1500,-936.5]
+     icon: snap
+     notes: Aller a la tablette en Jetpack au Nord Est et noramlement le lieux "North Gerudo Sky Archipelago" doit etre decouvert
+  - _Shrine::Mayasiar:
+     notes: Partir de l'île en direction de la boule flotante en pocket rocket et déclencher l'interupteur le plus haut avec 3 4 fruit de lumière fuse a une flèche 
+     comment: Finir le shrine en pocket rocket
+  - Sage Will:
+     icon: CHEST
+     coord: [-3457,1000,-0263]
+     notes: En sortant du shrine allé a gauche et clip la room avec un stick pour prendre le coffre
+  - Device Dispenser:
+     icon: Dispenser
+     notes: Après avoir pris le chest reclip avec un stick puis pocket rocket en face de la porte et a gauch
+     coord: [-3457,1500,-375.75]
+  - _Korok::GHS01:
+     notes: Aller en pocket rocket sur l'île la plus haute et petite et commencer le korok
+  - Old Map Chest:
+     icon: CHEST
+     coord: [-3377,1500,-0021]
+     notes: Retourner en arrièe chercher la map
+  - Tabantha Sky Archipelago:
+     notes: Partir au Nord en Jetpack jusqu'au Golem
+     icon: lieux
+     coord: [-3419,1500,351]
+  - _Boss::FluxConstruct::III:
+     notes: Perdre de la hauteur et tuer le golem
+     coord: [-3450,1500, 0658]
+  - _Shrine::Ganos:
+     notes: Après avoir tué le golem ABCS le crystal et le ramener en pocket rocket au shrine
+     comment: Finir le shrine avec pocket rocket au Sud Est
+  - Device Dispenser:
+     icon: Dispenser
+     coord: [-3455,1500,390]
+     notes: Y aller en Jetpack/Pocket Rocket
+  - Old Map Chest:
+     icon: CHEST
+     coord: [-3635,1000,0467]
+     notes: Y aller en pocket rocket/jetpack et tirer une flèche dans la corde au Nord Ouest
+  - Old Map Chest:
+     icon: CHEST
+     coord: [-3962,1000,0608]
+     notes: Après avoir récuper la carte pocket rocket vers l'Ouest/Nord Ouest vers l'île seule et récuper le chest
+  - _Korok::LBS05:
+     notes: Aller au Nord pour perdre de la hauteur et le korok est en bas
+  - _Korok::LBS01:
+     notes: Start Pocket Rocket Nord Est puis faire korok
+  - Activate Terminal:
+     icon: lieux
+     coord: [-3685.25,1500,1061.5]
+     notes: Activer après le korok
+  - _Korok::LBS03: 
+     notes: Pocket Rocket Sud Est pour découvrir le lieux et tirer une flèche dans le gland
+  - Zonai Helmet:
+     icon: CHEST
+     notes: Clip au niveau des poissons avec un stick et attendre 1745 en hauteur pour cancel 
+     coord: [-3593,1000,0943]
+  - _Shrine::Gaahisas:
+     notes: Après avoir récuper le chest et arreter le clip qa coter du shrine
+     comment: Pocket Rocket pour finir le shrine
+  - Device Dispenser:
+     icon: Dispenser
+     coord: [-3615,1500,1060]
+     notes: Clip après etre sortir du shrine attendre completement d'être sorti de lîle puis pocket rocket vers le dispenser
+     comment: Utiliser le dispenser avec 3 zonai charge et récuper une Hover Stone
+  - _Korok::LBS02:
+     notes: Avant de commencer le korok dup 1 grande zonai charge et avoir 4 zonai charge
+  - North Tabantha Sky Archipelago:
+     coord: [-3487,1500,1307]
+     notes: Jetpack Nord Est
+     icon: lieux
+  - Old Map Chest:
+     coord: [-3438,1000,1431]
+     icon: CHEST
+     comment: Panic Blood Moon normal lié au code du jeu
+     notes: Aller sur un nénuphare et UH le coffre pour l'ouvrir
+  - Sage Will:
+     icon: CHEST
+     notes: Pocket Rocket/jetpack Nord Ouest
+     coord: [-3781,1000,1573 ]
+     comment: Open chest
+  - Cart Slide to King Gleeok:
+     icon:  CS
+     coord: [-4471,1000,2275 ]
+     notes: Setup CS vers le Nord Ouest et arrivé proche de lui Snap le Gleeok
+  - _Boss::Gleeok::King:
+     notes: Tirer une flèche dans chque tete pour le stun puis taper avec la lance dans chaque tête
+  - Sage Will:
+     icon: CHEST
+     coord: [-4470,1000,2171] 
+     notes: Après que le Gleeok soit mort récuperer Gleeok Gut et aller au chest
+  - Duplication Atéfacte Soneau:
+     icon: zonai-dup
+     coord: [-4454,1500,2172.25]
+     notes: Dup 120 Hover Stones
+     comment: Se mettre face au vide et dup 15 Bananas et 3 Cave Fish après les hover stones
+- Tulin:
+  - _Korok::RP49:
+     color: blueviolet
+     notes: Après avoir fini de dup descendre vers le Sud avec Jetpack et prendre le korok
+  - Item ToD Night:
+     notes: Allumer un feux de camp et dormir a la nuit
+  - _Boss::Talus::Battle:
+     coord: [-4393,100,1935]
+     notes: Une fois sur le Talus snap les bokos et le Talus
+  - Dragon Bone Mire:
+     coord: [-4255,150,1751]
+     icon: lieux
+  - _Korok::RP57:
+     notes: Aller en Jetpack/Pocket Rocket au Sud Est
+  - _Korok::RP59:
+     notes: Jetpack/Pocket Rocket Sud Est
+  - _Korok::RP61:
+     notes: Pocket Rocket Est et sortir l'arc pour que link soit comme le caillou
+  - _Korok::RP58:
+     notes: Pocket Rocket/Jetpack Nord Est
+  - _Korok::RP55:
+     notes: Pocket Rocket/jetpack Nord Est
+  - _Korok::RP60:
+     notes: Pocket Rocket/Jetpack Sud Est
+  - _Boss::Stalnox:
+     coord: [-3794,100 ,1557]
+     notes: Avant d'aller prendre le stalnox prendre une photo du Cerisier a l'Ouest puis prendre en photo le stalnox
+  - _Korok::LB10:
+     notes: Pocket Rocket/Jetpack Est
+  - Addison:
+     coord: [-3559,100,1549]
+     icon: npc
+     notes: Utiliser une Hover stone devant Addison et la collé
+  - _Korok::RP56:
+     notes: Pocket Rocket vers le Nord
+  - Tulin Main Quest:
+     coord: [-3587.875,150,1802.75]
+     icon: npc
+     notes: Pocket Rocket vers le Nord Ouest
+  - Armor Shop:
+     coord: [-3631.625,150,1786]
+     icon: shop
+     notes: Acheter toute la tenue
+  - _Korok::RP53
+  - _Shrine::Gatakis:
+     notes: Pocket Rocket/Jetpack 
+  - _Korok::RP52:
+     notes: Pocket Rocket vers le Nord Ouest
+  - _Korok::RP51:
+     notes: Pocket Rocket vers le Nord Est/Est
+  - _Korok::RP44:
+     notes: Jetpack/pocket Rocket vers le Nord Est
+  - Addison:
+     icon: npc
+     coord: [-3613,100,2188]
+     comment: Pocket Rocket vers le Nord Ouest
+     notes: Utiliser une hover stone et la mettre sous le panneau
+  - _Korok::RP41:
+     notes: Pocket Rocket vers le Nord Est et le lieu "Hebra Trailhead Lodge" doit etre decouvert
+  - Speak Harth:
+     icon: npc
+     coord: [-3572.0625,150,2257.5]
+  - _Cave::Enter::RosproPass:
+     notes: Pocket Rocket vers le Nord est fuse des canons aux flèches pour entrer et parler a Mazli 
+  - _Bubbulfrog::RosproPassCave:
+     notes: Tuer le Frog avec des flèches
+  - Clip Mountains:
+     notes: Clip avec un abcs des guidons
+     icon: ABCS
+  - _Bubbulfrog::HebraSouthSummitCave:
+     notes: Pocket Rocket vers le Frog
+     comment: Tuer le Frog OOB et revenir in bounce avec un stick
+  - Clip Mountains:
+     notes: Reclip a l'Ouest avec les guidons
+     icon: ABCS
+  - _Bubbulfrog::TalontoPeakCave:
+     notes: Essayer de pocket rocket vers le Sud Est tuer en OOB le Frog puis revenir in bounce avec un stick
+  - Chiilshroom:
+     icon: cryo-fruit
+     notes: Après avoir tuer le frog se diriger vers les stalactites et prendre le Champignons 
+     movements: 
+      - [-3198,100,2518]
+      - [-3222,100,2567]
+      - [-3213,100,2506]
+      - [-3207,100,2503]
+     comment: Il faut 10 champi ( dup si besoin )
+  - _Cave::Enter::TalontoPeak:
+     notes: Récuperer 3 fruits de glace a gauche et parler au npc pour lui donner 10 champis 
+  - _Korok::RP36:
+     notes: Partir a l'Ouest en pocket rocket prendre le korok
+  - _Cave::Enter::HebraSouthSummit::A:
+     notes: Pocket Rocket vers l'Ouest avec Jetpack et rentrer dans la cave
+  - _Shrine::Sahirow:
+     notes: Pocket Rocket vers le SudEst et enter shrine et pocket rocket/Jetpack dans le shrine
+  - _Korok::RP37:
+     notes: Pocket Rocket Sud Est et pocket rocket/Jetpack vers la cible
+  - Addison:
+     coord: [-3256,100,2571]
+     icon: npc
+     notes: Pocket Rocket vers Addison au Nord Est puis mettre une Hovers Stone
+  - Swallow Bow:
+     coord: [-3189,100,2562]
+     icon: CHEST
+     notes: Après Pocket Rocket vers le camp de Boko a l'Est et prendre le chest
+  - Tulin Fight:
+     icon: monstres
+     coord: [-3036,150,2739]
+     notes: Pocket Rocket vers le Nord Est et tuer le mob qui tiens l'arc de Tulin avevc une rocket 
+     comment: Ce Raprocher si besoin et lancer un ruby pour tuer les bokos
+  - _Korok::RPS02:
+     notes: Monter en Pocket Rocket vers le Nord Ouest puis faire le Korok
+     comment: Normalement le lieu "Rising Island Chain" doit être découvert
+  - Tulin Flag:
+     coord: [-2859.5,1500,2987.25]
+     icon: npc
+     notes: Pocket Rocket/Jetpack vers le Sud Est
+  - _Shrine::Mayaumekis:
+     notes: Pocket Rocket vers le Nord Ouest/ouest et activer les interupteurs dans le shrine et pocket rocket
+  - _Boss::FluxConstruct::I:
+     notes: Jetpack vers le Nord Ouest avec Pocket rocket et utilisé Tulin; tuer le Golem
+     coord: [-3472,1000,3519]
+  - Old Map Chest:
+     icon: CHEST
+     notes: Récuper le chest après avoir tuer le golem
+  - _Shrine::Kahatanaum:
+     notes: .link([Launch Link avec une Big Batterie puis POcket Rocket/Jetpack vesr le shrine]https://youtu.be/TfCYOXK0Pns)
+     comment: Launch vers le Sud Est en faisant L puis A presque instant et dans le shrine manger une banane speed 3 
+  - _Korok::RPS01:
+     notes: Pocket Rocket/Jetpack vers le point jaune et prendre le korok  
+  - Enter Wind Temple:
+     notes: Refaire un Big Batteri launch et rentré dans le temple
+     coord: [-2859.5,1500,2987.5]
+     icon: TEBA
+  - Wind Temple:
+     coord: [-2860.125,1500,3101]
+     notes: A la fin récuperer le receptacle de coeur
+     icon: WIND-TEMPLE
+     comment: .link([Wind Temple by Xdri]https://youtu.be/-apEvMxNULk)
+- Return to Rito Village:
+  - Tulin:
+     color: burlywood
+     icon: npc
+     coord: [-3588,150,1802.625]
+  - Staminoka Bass:
+     coord: [-3496.5,150,1854.9375]
+     icon: fish
+     notes: Pocket rocket vers le Nord Est avec le Jetpack et récuper le fish
+  - Molli the Fletcher's Quest:
+     icon: quest
+     coord: [-3616,100,1789]
+     notes: Pocket Rocket vers l'Ouest puis parler a Molli puis récuperer les 5 flèches posé a coter
+  - Fish for Fletching:
+     icon: quest
+     notes: Pocket Rocket vers le Sud Ouest et parler a Bedoli
+     coord: [-3654,100,1765]
+  - The White Bird's Guidance:
+     icon: quest
+     coord: [-3633,100,1828]  
+     notes: Pocket Rocket vers le Nord Est et faire B quand on peut demander des questions
+  - Genli's Home Cooking:
+     icon: quest     
+     coord: [-3645,150,1820.125]
+     notes: Dire oui pour lui donner les obkects
+  - Arrow :
+     icon: shop
+     notes: Acheter toutes les flèches
+  - Treasure of the Secret Springs:
+     icon: quest
+     coord: [-3667,100,1821]
+     notes: Pocet Rocket Nord Ouest puis Nord Est et parler a Tulin
+  - Legacy of the Rito:
+     icon: quest
+     notes: Après avoir parler a Tulin parler a Teba est lui dire oui pour avoir le great Eagle
+     comment: Après l'avoir eu dup 2 fois l'arc en jettant l'arc de lynel equipé
+  - The Rito Rope Bridge:
+     icon: quest
+     coord: [-3296,100,1799]
+     notes: Pocket Rocket/Jetpack vers l'Est et parler au npc
+     comment: Le lieux "Lucky Clover Gazette" doit être découvert
+  - Potential Princess Sightings:
+     icon: quest
+     notes: Pocket rocket vers le Sud Est et parler au piaf
+     coord: [-3251.125,150,1760.5]
+  - _Korok::LB09:
+     notes: Pocket Rocket vers le Sud Est 
+  - _Shrine::Oromuwak:
+     notes: Pocket Rocket vers le Nord Est et après avoir activer le shrine désactiver Tulin
+     comment: Pocket Rocket puis tirer flèches avec Bombs sur la gauche puis finir en pocket rocket
+  - _Bubbulfrog::BrightcapCave:
+     notes: Pocket Rocket vers le Sud Ouest puis Sud Est puis clip avec un stick puis pocket rocket vers l'Ouest et tuer le Frog
+     movements:
+      - [-3027,100,1553]
+      - [-3054,100,1556]
+      - [-3032.125,150,1572.75]
+  - Frostbite Shirt:
+     icon: CHEST
+     movements:
+      - [-3030,100,1543]
+      - [-3042,100,1529]
+     notes: Aller au chest en paravoile 
+  - _Cave::Enter::Brightcap:
+     notes: Après avoir pris le chest sortir un stick pour enlever le dpad lock puis pocket Rocket Nord Est et Nord Ouest et Ascend puis pocket rocket au Nord
+     movements:
+      - [-3023,100,1549]
+      - [-3032,100,1566]
+      - [-3006,100,1635]
+  - Snap Horriblin :
+     icon: snap
+     coord: [-3015,100,1554]
+     notes: Rentrer dans la cave avec Pocket Rocket prendre bombe proche du mob et le snap
+  - Cave Mushrooms that Glow:
+     icon: quest
+     coord: [-2985,100,1657]
+     notes: Ressortir de la cave avec pocket rocket vers le Nord et parler a Nat et lui donner 10 Brightcaps
+  - _Korok::LB06:
+     notes: Pocket Rocket verse le Sud Est
+  - _Korok::LB05:
+     notes: Pocket Rocket vers le Sud Est puis Nord Ouest et Nord
+  - Open the Door:
+     icon: quest
+     notes: Après avoir pris le Korok lancer un ruby sur les bokos et ouvrir la porte une fois les bokos morts
+  - _Cave::Enter::TabanthaHills:
+     notes: Pocket Rocket vers le Nord Ouest
+  - _Bubbulfrog::TabanthaHillsCave:
+     notes: Une fois dans la cave grimper a l'aide d'un pokcet rocket et tuer le Frog
+  - _Korok::RP48:
+     notes: Ascend après avoir pris le crystal et snap le lynel puis pocket rocket/Jetpack vesr le Nord Est
+  - _Korok::PS29:
+     notes: Pocket Rocket Sud Est puis Sud Ouest et passer en dessous du pont naturel et faire le korok
+  - _Tear::02:
+     notes: Pocket Rocket vers le Sud Est et prendre la Tears
+  - _Korok::PS30:
+     notes: Pocket Rocket et tirer sur une chaine dans une petite tears
+  - Tabantha Hills:
+     coord: [-2467.5,150,1840.5]
+     icon: lieux
+     notes: Rester en l'air avec le Jetpack
+  - _Well::TabanthaVillageRuins:
+     notes: Passer à pieds a coter du Well
+  - _Korok::LB04:
+     notes: Y aller en pocket rocket vers le Nord Est et tirer dans le gland
+  - _Korok::LB07:
+     notes: Pocket Rocket vers le Sud Est avec Jetpack
+  - Clip Mountains:
+     notes: ABCS stick pour clip et avancé jusqu'au Frog
+     icon : ABCS
+     coord: [-2169,150,1534]
+  - _Bubbulfrog::TanagarCanyonEastCave:
+     notes: Tuer le Frog OOB puis revenir In bounce avec un stick
+  - Clip Cave:
+     icon: ABCS
+     movements:
+      - [-2155,100,1554]
+      - [-2148,100,1618]
+      - [-2069,100,1555]
+     notes: Pocket Rocket vers le Nord Est puis Sud Est et une fois au dessus du tas de pierre revenir in bounce avec un stick pour le Stalnox
+  - _Boss::Stalnox:
+     notes: Utiliser plusieurs flèches avec des canons jusqu'a ce que l'on puisse voir le stalnox, il faudrat le snap et après le tuer
+     coord: [-2058,100,1559]
+     comment: Récuper une pierre salé
+  - _Cave::Enter::TanagarCanyonEast:
+     notes: Pocket Rocket pour sortir de la cave
+  - Maritta Exchange Ruins:
+     icon: lieux
+     notes: Faire un Launch avec une Big Batterie et utiliser le pocket rocket pour remonter
+     movements:
+      - [-2019,150,1761.5]
+      - [-1926.5,150,1658.5]
+      - [-1807,150,1638.5]
+  - _Well::MarittaExchangeRuins:
+     notes: Passer a coter du Well en paravoile
+  - _Korok::LB18:
+     notes: Continuer en pocket rocket vers le Sud Est/Sud et Jetpack
+     comment: C'est un socle a Ascend
+  - _Cave::Enter::LindorsBrow:
+     notes: Descendre en face du Korogu pis revenir en arrière et entrer dans la cave
+  - _Shrine::Takiihaban:
+     notes: Utiliser Jetpack dans la cave
+     comment: Finir avec pocket rocket le shrine
+  - _Bubbulfrog::LindorsBrowCave:
+     notes: Aller vers l'Est en pocket Rocket puis le Nord Ouest en pocket rocket tuer le Frog 
+  - _Korok::LB15:
+     notes: Ascend après avoir recuperer la gem puis pocket rocket vers l'Ouest
+  - _Tower::LindorsBrow: 
+     notes: Revenir en Jetpack et l'activer
+- Lindor's Brow Sky:
+  - Complete the diving challenge:
+     notes: Partir en Jetpack au Sud Ouest et commencer l'épreuve
+     color: cadetblue
+     icon: quest
+     movements:
+      - [-2215.5,1500,932]
+  - Repeat trial once for Glide piece:
+     icon: quest
+     notes: Refaire l'épreuve pour la tenu
+     coord:  [-2335.25,1500,783.5]
+  - Device Dispenser:
+     coord: [-2371,1500,780.75]
+     icon: Dispenser
+     notes: Passer en pocket rocket a coter du Dispenser
+  - _Shrine::Taunhiy:
+     coord: [-2401.84, 1734.32, 825.23] 
+     notes: Setup un Zonai Glitch Storage sur les stick puis a l'interieur sortir un stick pocket rocket a droite puis une fois passer le plafond resortir un stick au dessus du monk
+  - _Korok::LBS04:
+     coord: [-2367.11, 1724.78, 865.1]
+- Tabantha:
+  - Thundra Plateau:
+     color: chartreuse
+     icon: lieux
+     notes: Après le Korok descendre au Plateau du tonnere et sortir un stick pour clip
+     coord: [-2268.75,150,912.75]
+  - Mask Of Awekening:
+     icon: CHEST
+     coord: [-2268,100,0841]
+     notes: Une fois dans la grotte revenir vers l'entré pour la découvrir et apres ouvrir le chest 
+  - _Bubbulfrog::ThundraPlateauCave:
+     notes: Le Frog est caché dans des pierres tirer des flèches avec un canon dessus puis recuperer la gem et une bombe
+  - _Korok::LB23:
+     notes: Ascend pour sortir de la grotte puis pocket rocket Nord Est et tirer un canon sur le tas de  feuille et prendre le korok
+  - _Korok::LB21:
+     notes: Pocket Rocket Nord Est et utilisé 2 Hower stones pour le korok
+  - _Korok::LB19:
+     notes: Pocket Rocket Nord Ouest
+  - _Shrine::Runakit:
+     notes: Pocket Rocekt vers Runakit et setup Zonai Glitch Storage sur des sticks puis une fois dans le shrine sortir stick et pocket rocket a gauche et uen fois le plafond passé pocket rocket a droit et sortir un stick au dessus du monk
+  - _Korok::LB16:
+     notes: Pocket Rocket Nord Ouest puis Jetpack le Korok
+  - _Boss::Hinox::Red:
+     notes: Pocket Rocket vers le Nord Ouest et tuer l'Hinox
+  - _Korok::LB20:
+     notes: Pocket Rocket/Jetpack vers le Sud Ouest/Ouest
+  - Addison:
+     icon: npc
+     coord: [-3134,100,  1224]
+     notes: Pocket Rocket Est puis Nord mettre Hower Stone en dessous du panneau
+  - _Korok::LB13:
+     notes: Pocket Rocket vers le pont et tirer une flèche dans le gland et commencer a dive
+  - _Boss::Talus::Battle:
+     coord: [-3117,100,  1288]
+     notes: Tuer le Talus et si la lance ce casse dup une et rééquiper la lance et refaire un pocket rocket sur un sheild neuf et drop celui deja abîmé
+  - _Korok::LB11:
+     notes: Pocket Rocket a l'Ouest sur la montagne et prendre le korok
+  - _Korok::LB14:
+     notes: Jetpack a l'Ouest pour le korok
+  - _Boss::Talus::Stone:
+     coord: [-3387,100, 1076]
+     notes: Pocket Rocket Sud Est/Sud et tuer le Talus
+  - _Korok::LB30::Start:
+     notes: Pocket Rocket vers le Korok au Sud Ouest ABCS le Korok
+  - _Korok::LB30::End:
+     notes: Jetpack au Sud Est et donner le korok a son pote
+  - _Korok::LB31:
+     notes: Prendre le korok soit avant soit apres avoir rendu l'autre
+  - _Korok::LB33:
+     notes: Pocket Rocket Nord Est puis Jetpack Est et ascend le korok
+  - _Korok::LB36: 
+     notes: Pocket Rocket Sud Est puis Ouest et prendre le korok
+  - _Boss::Talus::Stone:
+     coord: [-3298,100,0649]
+     notes: Pocket Rocket Est et Jetpack
+  - _Korok::LB39:
+     notes: Pocket Rocket/Jetpack Sud Est et tirer une flèche dans le ballon sous le pont
+  - Ultra Ball Haul Check-In:
+     icon: lieux
+     coord: [-3189.75,150,637]
+     comment: Faire attention que le lieux soit bien découvert
+     nots: Dive full Nord
+  - _Cave::Enter::TanagarCanyonWest:
+     notes: Jetpack jusqu'a l'entry
+  - Clip Cave:
+     icon: ABCS
+     movements: 
+      - [-3321,100,793]
+      - [-3432,100,747]
+      - [-3488,100,735]
+     notes: Pocket Rocket vers l'Ouest et tuer en OOB le Frog puis revenir in bounce avec un stick
+  - _Bubbulfrog::TanagarCanyonWestCave
+  - Clip Cave:
+     icon: ABCS
+     movements:
+      - [-3492,100,730]
+      - [-3535,100,807]
+     notes: Pocket Rocket vers le Nord Ouest puis revenir in bounce avec un stick 
+  - _Shrine::Iunorok:
+     notes: Setup Zonai Glitch Storage avant d'entrer et aller au dessus du monk pour clip ou sinon passer en dessous de la cible en pocket rocket
+  - The Hornist's Dramatic Escape:
+     icon: npc
+     notes: Ascend plus loin et après pocket rocket au Sud Ouest puis parler au pnj et après coller une rocket a la charette et la déclencher avec des flèches
+     movements:
+      - [-3540,150,826]
+      - [-3646,100,763]
+  - _Korok::LB40: 
+     notes: pocket Rocket Sud Est puis eclater le ballon avec l'arc
+  - _Korok::LB37:
+     notes: Après monter sur les 2 pillier et sur le 2eme il y a un tas de feuille a exploser avec les canons
+  - _Korok::LB45:
+     notes: Pocket Rocket Sud Ouest
+  - Item Make Morning:
+     notes: Dormir a Morning
+     icon: dodo
+  - _Korok::LB46:
+     notes: Pocket Rocket Nord Ouest puis Ouest et faire le korok
+  - _Boss::Gleeok::Flame:
+     coord: [-3625,110,0420]
+     notes: Pocket Rocekt Nord Ouest et stun chaque tete du Gleeok pui le tuer
+  - Snap Ancient Columns:
+     icon: snap
+     coord: [-3531,100,422]
+  - _Cave::Enter::AncientColumns:
+     notes: Aller sur le gros pillier en face et activer l'interrupteur pour entrer dans la cave
+  - _Bubbulfrog::AncientColumnsCave:
+     notes: Utiliser le Jetpack et une fois au Frog le tuer puis ascend au centre de la salle après avoir recuperer la gem
+  - Tunic of Awakening:
+     coord: [-3535,100,0410]
+     icon: CHEST
+  - Misko's Tablet:
+     icon: quest
+     coord: [-3528,100,0410]
+     notes: Lire la tablette 
+  - Addison:
+     coord: [-3321,100,0505]
+     icon: npc
+     notes: Ascend le plafond après avoir lu la stele puis pocket rocket/Jetpack a l'Est et mettre une hover stone sus le panneau
+  - _Korok::LB48:
+     notes: Pocket Rocket vers le Sud puis démarré le Korok et Ascend la roche grise et le prendre
+  - _Korok::LB50:
+     notes: Pocket Rocket pour aller au Sud et faire le korok
+  - _Korok::LB49:
+     notes: Pocket Rocket vers l'Est
+  - _Korok::LB54::Start:
+     notes: Pocket Rocket vers le Sud puis ABCS le korok et montée voir son reuf en pocket rocket
+  - _Korok::LB54::End:
+     notes: Pocket Rocket drop le korok a son reuf
+  - _Tear::06: 
+     notes: Pocket Rocket/Jetpack vers le Sud Ouest et prendre la tears
+  - _Korok::LB60:
+     notes: Pocket rocket vers le caillou et prendre le korok
+  - Addison:
+     notes: Pocket Rocket/Jetpack Vers l'Ouest et mettre Hover stone sous le panneau
+     coord: [-3382,100,-0220]
+     icon: npc
+  - _Korok::GH04:
+     notes: Pocket Rocket le Nord Ouest
+  - _Shrine::Turakawak:
+     notes: Pocket Rocket vers le Sud Ouest  et pocket rocket le shrine
+  - _Korok::GH03::Start:
+     notes: Pocket Rocket nord Ouest et ABCS le Korok
+  - _Boss::Talus::Rare:
+     notes: Pocket Rocket vers le Nord Est et tué le talus
+     coord: [-3491,100,0171]
+  - _Korok::GH02:
+     notes: Pocket Rocket/Jetpack vers l'Ouest et ascend le korok
+  - _Korok::GH01:
+     notes: Pocket Rocket vers l'Ouest en prennant de la hauteur
+  - _Korok::GH03::End:
+     notes: Pocket Rocket vers le Sud Ouest et donner au reuf son pote
+  - _Shrine::Gasas:
+     notes: Pocket Roecket le Shrine et prendre la clé avec recall puis Uh et faire pareil avec la boule
+  - _Korok::LB32:
+     notes: Pocket Rocket vers le Nord et faire le korok
+  - _Korok::LB28:
+     notes: Pocket Rocket vesr l'Ouest et donner 2 piments
+  - _Korok::LB24:
+     notes: Pocket Rocket vers le Nord et prendre le Korok sur l'arbre le plus a gauche
+  - _Korok::LB27:
+     notes: Pocket Rocekt vers le Sud Est et prendre le caillou et le mettre sur le socle
+  - _Korok::LB22:
+     notes: Pocket Rocket vers le Nord et Ascend le korok
+  - Gisa Crater:
+     icon: lieux
+     coord: [-3842,150,1009.75]
+     notes: Pocket rocket a l'Ouest et faire attention que le lieux soit découvert
+  - _Cave::Enter::GisaCrater::A:
+     notes: Arriver devant les rochers tirer une flèche avec des canons et entré dedans
+  - _Bubbulfrog::GisaCraterCave:
+     notes: Tuer le Frog et prendre le crystal du Shrine a la sortie de la grotte
+  - _Cave::Enter::GisaCrater::B:
+     notes: ABCS le crystal
+  - _Shrine::Ikatak:
+     notes: Mettre le crysal sur le sable et Pokcet rocket le shrine
+  - _Korok::LB12:
+     notes: Pocket Rocket a l'Est puis au Nord et faire le Korok
+  - Cherry Tree Snap:
+     icon: snap
+     coord: [-3880.75,150,1325]
+  - _Korok::RP54:
+     notes: Pocket Rocket/Jetpack vers le Nord Ouest et ascend le korok
+  - _Korok::RP50:
+     notes: Pocket Rocket Nord Ouest puis faire le Korok
+  - _Korok::RP45:
+     notes: Pocket Rocket/jetpack vers le Nord Est et faire Korok
+  - CLip Mountains:
+     coord: [-4054,100,2054]
+     icon: frame
+  - _Bubbulfrog::WestLakeTotoriCave:
+     notes: Tuer le Frog et revenir in bounce en ayant découvert la cava "West Lake Totori Cave" 
+  - _Shrine::Waoos:
+     notes: Pocket Rocket le shrine et tirer une flèche avec des bombes sur la dernière cible
+  - _Korok::RP47:
+     notes: Ascend pour sortir de la grotte et pocket rocket a l'Est
+  - _Korok::RP46:
+     notes: Pocket Rocket au Nord et prendre le korok
+  - _Cave::Enter::WestLakeTotori:
+     notes: Juste rentré dedans et ressortir en pocket rocket vers le Nord Est
+  - _Well::DronocsPass:
+     notes: Pocket Rocket/Jetpack Nord Est et passé a coter du Well
+  - Flight Range:
+     icon: lieux
+     coord: [-3809,150,2258]
+  - _Korok::RP40:
+     notes: Pocket Rocket Nord Est
+  - Kaneli's Flight Training:
+     icon: quest 
+     notes: Fairele mini jeux avec Kai et rentrer dans les 20 ciblent 
+  - _Korok::RP35:
+     notes: Pocket Rocket vers le Nord puis Nord Est et tirer une flèche avec des ruby sur les racines et prendre le korok
+  - _Tower::RosproPass:
+     notes: Pocket Rocket vers la tour et la scan
+- Rospro Pass Sky:
+  - West Hebra Sky Archipelago:
+     color: darkcyan
+     icon: lieux
+     notes: Pocket Rocket/Jetpack vers le Nord Ouest
+     coord: [-3790,1500,2480]
+  - _Shrine::Ijoo:
+     notes: Pocket Rocket dans la même direction et pocket rocket dans le shrine
+  - Device Dispenser:
+     coord: [-3806,1500,2760]
+     notes: Pocket Rocket vers le Dispenser et passé a coter de lui 
+     icon: Dispenser
+  - Old Map Chest:
+     icon: CHEST
+     coord: [-3859.875,1500,2921.125]
+     notes: Pocket Rocket/Jetpack vers le Nord Ouest
+  - _Korok::RPS03:
+     notes: Pocket Rocket vers le Sud Ouest et ce mettre sur la cible du korok
+  - _Boss::FluxConstruct::I:
+     notes: Pocket Rocket vers le Sud Est et tuer le golem
+     coord: [-3834,1000,2721]
+  - Old Map Chest:
+     icon: CHEST
+     coord: [-3830,1000,2715]
+     notes: Prendre le coffre après avoir tué le golem
+- Forgotten Temple:
+  - _Boss::Gleeok::Frost:
+     coord: [-3719,100,2982]
+     notes: Pocket Rocket Nord Est et Jetpack puis stun le Gleeok et le tuer 
+     comment: Si la lance ce casse redup et refaire un Pocket Rocket et re dupe 2 sheilds neuf
+  - The Duchess Who Disappeared:
+     icon: quest
+     movements:
+      - [-3666,150,3104]
+      - [-3668,100,3099]
+     notes: Pocket rocket Nord Est jusqu'en -3666 3104 et clip puis après une fois proche de la quête clip et aller parler au pnj
+  - _Bubbulfrog::EastBironSnowshelfCave:
+     notes: Après avoir fini la quête partir a l'Est pour aller tuer le Frog et récuper sa gem
+  - _Cave::Enter::EastBironSnowshelf::A:
+     notes: Pocket Rocket vers l'Est après etre remonté a la surface juste rentré un peu et ressortir une fois la cave apparrue sur la mini map
+  - _Korok::RP25:
+     notes: Faire des pocket rocket qui font montée link assez haut pour rejoindre le Korok
+  - _Korok::RP32:
+     notes: Pocket Rocket/Jetpack vers le Sud Est 
+  - Snap White Bird:
+     icon: snap
+     coord: [-3188.25,150,2689.875]
+     notes: Si l'oiseau et pas la pas grave sinon le prendre en photo
+  - _Korok::RP27:
+     notes: Pocket Rocket/Jetpack Nord Est
+  - The Duchess Who Disappeared:
+     notes: Pocket Rocket vesr le Nord Est, le lieux "Selmie's Spot" doit être pris en arrivant dans le chalet
+     coord: [-2952,150,3140.5]
+     icon: quest
+     comment: Finir la quête et drop un sheild pour la quête et recup le hylian sheild après la quete
+  - _Korok::RP20:
+     notes: Pocket Rocket vers le Nord Ouest et prendre le korok
+  - _Cave::Enter::HebraMountainsNorthwest: 
+     notes: Pocket rocket Nord Est puis redescendre dans le trou et entré dans le 1er trou a gauche pour tuer le Frog
+  - _Bubbulfrog::HebraMountainsNorthwestCave
+  - Crystal Rutafu-Um:
+     notes: Descendre dans la grotte et pocket rocket pour drop une wing dans l'eau et uh le crystal puis l ABCS
+     movements: 
+      - [-2996.75,150,3161.125]
+     icon: ABCS
+  - _Shrine::Rutafuum:
+     notes: Pocket Rocket et posé le crystal et finir le shrine
+  - _Korok::RP26::Start:
+     notes: Ascend pour sortir de la grotte et aller ABCS le korok et Pocket Rocket vers le Sud Est
+  - _Korok::RP26::End:
+     notes: Pocket Rocket vers le Nord Est et prndre les 2 noix
+  - _Korok::RP30: 
+     notes: Pocket Rocket/Jetpack Sud Est 
+  - _Korok::PS16:
+     notes: Pocket Rocket/Jetpack meme angle et prendre le korok
+  - Addison:
+     coord: [-2211,100,  2929]
+     notes: Pocket Rocket Nord Ouest et mettre une Hover stone sous le panneau
+     icon: npc
+  - _Korok::PS13::Start:
+     notes: Pocket Rocket a l'Ouest puis ABCS le Korok
+  - _Korok::PS13::End:
+     notes: Pocket Rocket au Nord Ouest
+  - _Tower::PikidaStonegrove:
+     notes: Pocket Rocket au Nord Est
+  - _Cave::Enter::PikidaStonegroveNorthwest::B:
+     notes: Se diriger a l'Ouest pendant le dive après la tour et rentré dans la cave et retirer les bottes des neiges
+  - Clip Cave:
+     icon: ABCS
+     movements:
+      - [-2419.125,150,3144.375]
+      - [-2408.5,150,3159]
+      - [-2488,100,3215]
+  - _Bubbulfrog::PikidaStonegroveNorthwestCave:
+     notes: Jetpack dans l'OOB et tuer le frog et revenir in bounce recuperer sa gem
+  - _Korok::RP19:
+     notes: Après avoir récuperer la gem ascend 2 fois pour ressortir et pocket rocket vers le Nord Ouest
+  - _Cave::Enter::PikidaStonegroveNorthwest::A:
+     notes: Descendre prendre la cave 
+  - _Boss::Talus::Frost:
+     coord: [-2685,100,3353]
+     notes: Pocket Rocket vers le Nord Ouest et tuer le Talus
+  - _Shrine::Sisuran:
+     notes: ABCS le crsytal et le mettre sur shrine et finir le shrine
+  - _Korok::PS03:
+     notes: Pocket Rocket vesr le Nord Est et fuse un ruby sur la flèche pour les ballons
+  - _Korok::PS01:
+     notes: Pocket Rocket Nord Est et prendre le korok
+  - Snap Tears:
+     icon: snap
+     coord: [-1961,150,3787]
+  - _Tear::08:
+     notes: Pocket Rocket Sud Est 
+  - _Korok::PS05:
+     notes: Pocket Rocket Sud Est
+  - _Korok::PS02:
+     notes: Pocket Rocket et Jetpack Nord Est
+  - _Shrine::Oshozanu:
+     notes: Pocket Rocket/Jetpack vers le Sud Est/Est et dans le shrine tirer sur les cibles avec des bombs
+  - _Korok::PS07::Start:
+     notes: Pocket Rocket Sud Est et ABCS le korok
+  - _Korok::PS04:
+     notes: Pocket Rocket/Jetpack Est 
+  - _Korok::PS08:
+     notes: Pocket Rocket/Jetpack Sud Est
+  - _Korok::PS07::End:
+     notes: Pocket Rocket Nord Est
+  - North Lomei Labyrinth:
+     icon: lieux
+     coord: [-815.375,150,3534.875]
+     notes: Pocket Rocket vers la grille et clip avec un stick les 2 1er puis dégelé le shrine avec des ruby fuse au flèches
+  - _Shrine::Mayaotaki:
+     notes: Pocket Rocket le shrine
+  - _Chasm::Enter::NorthLomei:
+     notes: Ascend pour remonter tout en haut
+  - _Korok::PS06:
+     notes: Pocket Rocket Est et tirer un ruby sur le sol du labyrinth 
+  - _Korok::PS09:
+     notes: Pocket Rocket/Jetpack Sud Ouest  et tirer sur le gland dans l'arbre
+  - _Korok::PS12:
+     notes: Pocket Rocket/Jetpack Sud Ouest et ascend le korok
+  - _Korok::PS11:
+     notes: Pocket Rocket Ouest .link([Et faire ca]https://youtu.be/FzIBxuPsWuk)
+  - Addison:
+     coord: [-1075,100,2797]
+     icon: npc
+     notes: Recuperer la rocket spear et Jetpack vers le Sud Est et mettre une Hover stone sous le panneau
+  - _Korok::PS15:
+     notes: Pocket Rocket vers le Sud Est et faire korok
+  - The Mother Goddess Statue:
+     icon: quest
+     movements:
+      - [-1079,100,2673]
+     notes: Parler a la statue en bas après avoir clip avec un stick
+  - _Shrine::Mayausiy:
+     notes: Setup Zonai Glitch Storage avant d'entrer ensuite drop un stick en retrant aller derrière passer le plafond en pocket rocket puis alle en haut a droite et etre au dessus du monk pour remettre un stick
+  - _Korok::LB01:
+     notes: Pocket Rocket Sud puis ascend
+  - _Korok::PS20:
+     notes: Pocket Rocket Sud Ouest/ouest avec JEtpack et refaire la meme strat que pour le PS11
+  - _Korok::PS19:
+     notes: Recuperer spear et pocket rocket/jetpack vers l'Ouest puis donner une fruit de glace
+  - Beedles:
+     icon: shop
+     coord: [-1678,150,2475.5]
+     notes: Chercher Terry et lui acheter ses flèches
+  - Snowfield Stable:
+     icon: lieux
+     coord: [-1654.5,150,2571]
+  - Register as a Pony Points member:
+     notes: Pocket Rocket devant le gerant de l'étable et lui parler et dire non a tout puis recuperer la carte de fidélité
+     icon: quest
+  - The Captured Tent:
+     coord: [-1665.125,150,2539.5625]
+     icon: quest
+     notes: Parler a Nat pour la qu^te
+  - _Korok::PS17:
+     notes: Pocket Rocket vers l'Ouest et ascend le korok
+  - _Well::SnowfieldStable:
+     notes: PAsser a coter du well a pieds
+  - _Shrine::Orochium:
+     notes: Se rendre au shrine en pocket rocket et setup un Zonai Glitch Storage puis clip dans le shrine pocket rocket a droite puis après le plafond aller a gauche et revenir in bounce
+  - _Korok::PS14::Start:
+     notes: Pocket Rocket Sud Est et ABCS le korok
+  - _Korok::PS14::End:
+     notes: Pocket Rocket Nord Est avec Jetpack
+  - _Cave::Enter::MountDrenaFoothill:
+     notes: Rentrer dedans avec Jetpack tuer les mobs
+  - _Bubbulfrog::MountDrenaFoothillCave:
+     notes: Après détruire les roches avec des rockets et tuer le frog
+- Great Plateau:
+    - _Warp::Shrine::Runakit:
+       color: darkgoldenrod
+    - _Chasm::Enter::HyruleRidge:
+       notes: Pocket Rocket vers le Chasm marcher a coter 
+    - _Korok::LB26:
+       notes: Pocket Rocket vers le Sud et plonger dans l'eua une fois au-dessus
+    - Addison:
+       icon: npc
+       coord: [-2700,100,0771]
+       notes: Pocket Rocket vers le Sud et mettre une Hover stone sous le panneau
+    - _Korok::LB34:
+       notes: Pocket Rocket Sud Ouest 
+    - _Shrine::Makurukis:
+       notes: Pocket Rocket vers le Sud puis setup Zonai Glitch Storage puis clip puis pocket rocket a droite et une fois passé le plafond pocket rocket a gauche et revenir in bounce au dessus du monk
+    - Tabantha Bridge Stable:
+       icon: lieux
+       coord: [-2931.75,150,546]
+       notes: Pocket Rocket vers l'Ouest avec Jetpack
+    - _Korok::LB41:
+       notes: Pocket Rocket vers le Sud Ouest et faire le korok
+    - Beedle:
+       notes: Acheter ses flèches
+       coord: [-2909.75,150,554.875]
+    - A Picture for Tabantha Bridge Stable:
+       icon: quest
+       notes: Parler une fois de plus au pnj pour avoir 1 point de fidèlité en plus
+    - Tabantha Great Bridge:
+       coord: [-3018.875,150,583.875]
+       icon: lieux
+       notes: Pocket Rocket vers l'Ouest
+       comment: Si la photo pour l'étable est pas bonne repartir a Ancients Columns et reprendre une photo a 5h du mat
+    - _Korok::LB38:
+       notes: Pocket Rocket au niveau du Pont a L'est et le aillou est sous le pont
+    - _Well::TabanthaBridgeStable:
+       notes: Pocket Rocket au Sud Est et marcher a coter du Well
+    - White Goats Gone Missing:
+       icon: quest
+       notes: Pocket Rocket  vers l'Est et parler a Pen
+       coord: [-2910.625,150,523.75]
+    - _Korok::LB53::Start:
+       notes: Pocket Rocket vers le Sud Est et ABCS le korok
+    - _Korok::LB53::End:
+       notes: Pocket Rocket vers le Sud Est et le donner au reuf
+    - Addison:
+       icon: npc
+       coord: [-2504,100,0190]
+       notes: Pocket Roket Nord Est et mettre Hover stone en dessous du panneau
+    - White Goats Gone Missing:
+       icon: quest
+       coord: [-2549,150,399.5]
+       notes: Pocket rocket/Jetpack vers le Nord Ouest et ouvrir la bouteille pour la quête
+    - _Korok::LB44:
+       notes: Pocket Rocket sur l'arbres en haut vers le Nord Est et tirée une flèche avec des canon sur le tas de feuille
+       comment: Si l'arce se casse le dup 
+    - _Korok::LB47:
+       notes: Pocket Rocket/Jetpack Sud Est et prendre le korok
+    - _Korok::LB43::Start:
+       notes: Pocket Rocket/Jetpack au Nord Est et ABCS le korok
+    - _Korok::LB43::End:
+       notes: Pocket Rocket pour ramenner le korok a son reuf
+    - _Boss::Hinox::Red:
+       coord: [-2221,100,0759]
+       notes: Pocket Rocket vers le Nord Ouest et tuer l'Hinox
+    - _Korok::LB29:
+       notes: Pocket Rocket a l'Est
+    - Addison:
+       icon: npc
+       coord: [-1783,100,0660]
+       notes: Pocket Rocket/Jetpack vers l'Est et mettreune Hover stone sous le panneau
+    - _Korok::LB42:
+       notes: Pocket Rocket/Jetpack vers l'Est et tirer une flèche sur le gland
+    - _Cave::Enter::NorthHyrulePlain::B:
+       notes: Pocket Rocket vers le Nord Est passer en rentrant puis en sortant de la grotte /!\ vérifier qu'elle est sur la mini map
+    - _Korok::LB35:
+       notes: Pour ce Korok faire comme le PS20
+    - _Cave::Enter::NorthHyrulePlain::A:
+       notes: Pocket ROcket vesr le Nord Ouest et rentrer dans la grotte
+    - _Bubbulfrog::NorthHyrulePlainCave:
+       notes: une fois dans la cave tuer direct le frog
+    - Climbing gear:
+       icon: CHEST
+       coord: [-1214,100,0774]
+       notes: Après avoit tuer le Frog aller vers la cascade plus bas et nager dedans pour atteindre le coffre
+    - Frog Gem:
+       notes: Ascend pour aller dans la room du Frog et récuperer la gem
+       coord: [-1229,150,775.8125]
+       icon: frog
+    - Horse Drawn Dreams:
+       icon: quest
+       movements:
+        - [-1248.5,150,799.25]
+        - [-1329.75,150,724.25]
+       notes: Pocket Rocket au Nord Ouest puis ramener un cheval pour la meuf ensuite réparer la caleche avec les roues sur le coter 
+    - _Well::NewSerenneStable:
+       notes: Passer a coter en marchant
+    - The Beast and the Princess:
+       notes: Parler a Pen
+       icon: quest
+       coord: [-1350.1875,150,733]
+    - A Picture for New Serenne Stable:
+       icon: quest
+       notes: Placer la photo sur la frame et achter des flèches a Terry et toutes les lucioles
+       coord: [-1362.4375,150,732.6875]
+    - _Shrine::Sinakawak:
+       notes: Pocket Rocket vers le shrine et setup Zonai Glitch Storage puis clip et pocket rocket a droit dans le shrine et revenir in bounce au dessus du monk
+    - Impa and the Geoglyphs:
+       notes: Pocket Rocket vers Impa au Nord Est et faire la quête
+       comment: Pour la mongolfière colelr une rocket pour la faire monter plus vite
+       icon: main-quest
+       coord: [-1309.5625,150,822.4375]
+    - _Korok::LB25:
+       notes: Pocket Rocket vers le Nord Est
+    - Royal Ancient Lab Ruins:
+       icon: lieux
+       coord: [-1249.25,150,1033.25]
+    - _Tear::01:
+       notes: Pocket Rocket vers le Sud Ouest et prenre la tear
+    - _Boss::Talus::Battle:
+       coord: [-1448,100,1026]
+       notes: POcket rocket vers le Nord Ouest et tuer le Talus
+    - Addison:
+       icon: npc
+       coord: [-1451,100,1177]
+       notes: Pocket Rocket vers le Nord et mettre une Hover stone sous le panneau
+    - _Korok::TR17::Start:
+       notes: Pocket Rocket vers le Nord et setup le korok en ABCS
+    - _Korok::LB08:
+       notes: Pocket Rocket vers le Nord Est
+    - _Korok::TR17::End:
+       notes: Pocket Rocket/Jetpack vers le Sud Est et drop le Korok a son reuf
+    - _Boss::Hinox::Red:
+       notes: Pocket Rocket vers le Sud Est et tuer l'Hinox
+       coord: [-0742,100,1263]
+    - _Well::ElmaKnolls:
+       notes: Passer a coter a pieds
+    - _Shrine::Tenmaten:
+       notes: Pocket Rocket jusqu'en -602 1543 environ et clip avec un stick jusqu'au shrine
+       comment: Pocket Rocket le shrine
+    - _Korok::TR16:
+       notes: Ascend pour sortir de la cave puis pocket rocket vers le Nord Est/Est avec Jetpack puis dive dans l'eau pour le korok
+    - _Korok::TR15:
+       notes: Pokcet Rocket/Jetpack vers l'Ouest dans un arbre
+    - _Chasm::Enter::ElmaKnolls:
+       notes: Pocket Rocket et marcher a coter du Chasm
+    - _Boss::Hinox::Red:
+       coord: [-0407,100,2011]
+       notes: Pocket Rocket vers le Nord et tuer l'Hinox
+    - _Korok::LB03:
+       notes: Pocket Rocket vers l'Ouest et drop 3 bananes
+    - _Cave::Enter::YigaClanMarittaBranch:
+       notes: Pocket Rocket  vers le Nord 
+    - Yiga Tights:
+       icon: CHEST
+       notes: Après avoir tué les yigas ascend au niveau du trou en haut a gauche et parler au npc
+    - _Bubbulfrog::YigaClanMarittaBranch:
+       notes: Redescendre a l'endroit du fitgh et aller droite soulever une plaque descendre puis a gauche et tuer le frog
+    - _Korok::LB02::Start:
+       notes: Ascend après avoir pris la gem et pocket Rocket vers le Nord Est et ABCS le korok
+    - _Korok::LB02::End:
+       notes: Pocket Rocket vers l'Ouest avec Jetpack
+    - _Well::RowanPlain:
+       notes: Pocket Rocket vers le Nord Ouest et marcher a coter du well pour l'avoir
+    - _Boss::Hinox::Red:
+       coord: [-1246,100,2109]
+       notes: Pocket Rocket Sud Ouest et tuer l'Hinox
+    - _Shrine::Kiuyoyou:
+       notes: Pocket Rocket a l'Est et setup Zonai Glitch Storage puis sortir un stick pocket rocket a droite te une fois passer le plafond aller vers le monk et clip avec un stick
+    - Addison:
+       coord: [-1011,100,2023]
+       notes: Pocket Rocket vers le Sud Est et mttre une Hover stone sous le panneau
+       icon: npc
+    - _Well::IrchPlain:
+       notes: Pocket Rocket au Sud Est et marcher a coter du Well
+    - _Korok::LB17:
+       notes: Pocket Rocket vers le Sud Ouest avec Jetpack et donner 1 pomme
+    - _Korok::LL08:
+       notes: Pocket Rocket au Sud puis Pocket ROcket au Sud Est
+    - _Korok::LL05::Start:
+       notes: Pocket Rocket vers le Sud Est puis etup ABCS pour le Korok
+    - _Korok::LL05::End:
+       notes: Pocket Rocket vers le Nord Est avec Jetpack
+    - _Korok::TR19:
+       notes: Pocket Rocket Nord Est et tirer une flèche dans le gland
+    - _Korok::LL04:
+       notes: pocket Rocket vers l'Est/Sud et utiliser un ruby pour ecalter les ballons
+       comment: Il se trouve à l'intérieur d'une fissure dans le mur, à côté du moulinet Korok
+    - Royal Hyrulean Fabric:
+       icon: CHEST
+       notes: Pocket Rocket vers le Sud Ouest et detruire le tas de pierre avec 2 coups de flèches canons et récuperer le coffre 
+    - _Korok::LL12:
+       notes: Ascend en dehors et pocket Rocket au Sud Ouest et détruire le gland sur le pont
+    - _Korok::LL19:
+       notes: Pocket Rocket vers le Sud et le choper
+    - Castle Town Prison:
+       icon: lieux
+       coord: [-675,150,829.5]
+    - _Boss::Talus::Battle:
+       coord: [-0770,100,0811]
+       notes: Pocket rocket vers l'Est et tuer le talus
+    - _Korok::LL29:
+       notes: Pocket Rocket vers le Sud Est /!\ Moat Bridge doit être découvert et éclater le ballon
+    - _Korok::LL28:
+       notes: Pocket ROcket vers le Nord Est et prendre le caillou
+    - Water Reservoir:
+       icon: lieux
+       coord: [-596.5,150,520.5]
+       notes: Pocket Rocket au Reservoire d'eau au Sud
+    - _Korok::LL35:
+       notes: Pocket Rocketa l'Est du reservoire
+    - _Korok::LL34:
+       notes: Pocket Rocket vers l'Ouest
+    - _Chasm::Enter::HyruleCastleMoatWest:
+       notes: Pocket Rocekt vers le Nord Ouest
+    - _Korok::LL23:
+       notes: Ascend après avoir découvert le Chasm et allé faire le korok
+    - _Korok::LL33:
+       notes: Pocket Rocket Sud/Jetpack
+    - _Boss::Hinox::Red:
+       notes: Pocket rocket sur Carok Bridge et tuer l'Hinox
+       coord: [-1080,100,0462]
+    - _Well::CarokBridge:
+       notes: Pocket Rocket vers le Sud Est et marcher a coter du Well
+    - _Korok::LL40:
+       notes: Pocket  Rocekt au Sud Est etascend
+    - _Well::MountGustaf:
+       notes: Pocket Rocket et passer en marchant a coter du Well
+    - _Shrine::Ishodag:
+       notes: Pocket Rocket au Nord et pocket rocket le shrine
+    - Addison:
+       coord: [-0755,100,0243 ]
+       icon: npc
+       notes: Pocket Rocket au Sud Ouest et mettre une hover stones sous le paneau
+    - _Korok::LL44:
+       notes: Pocket Rocket sur l'arbre et tirer dans le gland
+    - _Korok::LL47:
+       notes: Pocket Rocket vers le Sud et tirer dans l'arbre la où est le ballon
+    - _Korok::LL48:
+       notes: Pocket rocket vers l'Ouest 
+    - _Korok::LL45:
+       notes: Pocket Rocket vers le Nord Ouest
+    - _Korok::LB52:
+       notes: Pocket Rocket vers le Nord Ouest et tirer sur le gland
+    - _Korok::LB56:
+       notes: Pocekt ROcket/Jetpack au Sud Ouest et tirer des canons dessus
+    - _Korok::LB51:
+       notes: Pocket vers le Nord puis Nord Ouest et utiliser une Hover stone pour avoir la hauteur
+    - _Korok::LB57:
+       notes: Pocket Rocket vers le Sud Ouest et tirer dans le ballon
+    - Jeddo Bridge:
+       notes: Pocket Rocket Sud Ouest
+       icon: lieux
+       coord: [-1690.5,150,-132]
+    - _Korok::LB58:
+       notes: Pocket Rocket Nord Ouest
+    - _Korok::LB59:
+       notes: pocket Rocket a l'Ouest
+    - _Korok::LB55:
+       notes: Pocket Rocket au Nord Ouest
+    - _Boss::Talus::Battle:
+       coord: [-2550,100,-0111]
+       notes: Pocket ROcket vers le Sud Ouest et tuer le talus
+    - _Korok::LB61:
+       notes: Pocket Rocket Sud Ouest et faire le puzzle
+    - Addison:
+       coord: [-2676,100,-0426]
+       icon: npc
+       notes: Pocket Rocket au Sud Ouest et mettre une Hover stone sous le paneau
+    - _Korok::GH08:
+       notes: Pocket Rocket vers l'Ouest et faire le Koroks
+    - _Boss::Talus::Luminous:
+       coord: [-2860,100,-0521]
+       notes: Pocket Rocket a l'Est et tuer le talus
+    - _Korok::HF06:
+       notes: Pocket Rocket Nord Est et faire le pattern
+    - _Korok::HF12:
+       notes: Pocket Rocket Sud Est
+    - Bright Eyed Crab:
+       coord: [-2558.75,150,-634.5]
+       notes: Prendre le crabe
+       icon: cryo-fruit
+    - Blue Nightshade:
+       coord: [-2475.5,150,-654.75]
+       notes: Prendre 10 fleurs de chaque
+       icon: fleur
+    - _Korok::HF09:
+       notes: Faire le korok
+    - _Korok::HF08:
+       notes: Pocket Rocker Nord Est puis Sud Est
+    - _Korok::HF17:
+       notes: Pocket Rocket Sud Est et faire la strat avec l'espadon
+    - _Korok::HF16:
+       notes: Recuperer la spear rocket et Pocket Rocket a l'Est et ascend le korok
+    - _Boss::Talus::Luminous:
+       coord: [-2221,100,-0585]
+       notes: Pocket Rocket vers le Nord Est et tuer le Talus
+    - _Korok::HF03:
+       notes: Pocket Rocket au Nord Ouest et soulever la pierre
+    - _Cave::Enter::SatoriMountain:
+       notes: Pocket Rocket vers l'Est et rentré dans la cave
+    - Clip Cave:
+       icon: ABCS
+       notes: Clip avec l'ABCS des stick et pocket rocket jusqu'au Frog
+       coord: [-2157.4375,150,-356.4375]
+    - _Bubbulfrog::SatoriMountainCave:
+       notes: Tuer le Frog et revenir in bounce et récuperer sa gem
+       comment: Si le sheild se pete refaire un pocket rocket
+    - CLip Cave:
+       coord: [-2293.5,150,-469]
+       notes: Clip Cave avec ABCS stick
+       icon: ABCS
+    - _Bubbulfrog::SatoriMountainFoothillCave:
+       notes: Jetpack a l'Est et tuer le Frog en revenant in bounce
+    - _Boss::Hinox::Red:
+       coord: [-2275,100,-0723 ]
+       notes: Pocket Rocket vers l'Hinox et le tuer et ABCS le crystal
+       comment: Si la lance se casse redup la lance et refaire le pocket rocket sur le sheild abimé
+    - _Cave::Enter::SatoriMountainFoothill:
+       notes: Sortir de la cave en pocket rocket 
+    - _Shrine::Usazum:
+       notes: Pocket Rocket vers le shrine pour poser le crystal et pocket rocket le shrine
+    - _Korok::HF18:
+       notes: Pocket Rocket au Nord Ouest
+    - _Korok::HF27:
+       notes: Pocket Rocket vers le Sud Ouest et ascend le korok
+    - _Korok::HF30:
+       notes: Pocket Rocket au SUd Est
+    - _Boss::Hinox::Blue:
+       coord: [-2014,100,-1200]
+       notes: Pocket Rocket Sud Est et tuer l'Hinox
+    - _Korok::HF29: 
+       notes: Pocket Rocket vers le Nord Est
+    - _Korok::HF33:
+       notes: Pocket Rocket vers le Sud Est
+    - Manhala Bridge:
+       icon: lieux
+       notes: Pocket Rocket vers le Nord Est
+       coord: [-1617.75,150,-1018.25]
+    - _Korok::HF26:
+       notes: Pocket Rocket vers l'Est et tirer sur le gland en dessous du pont
+    - _Korok::HF10::Start:
+       notes: Pocket Rocket au Nord Est et setup le korok ABCS
+    - _Korok::HF19:
+       notes: Pocket Rocket au Nord
+    - _Korok::HF20:
+       notes: Pocket Rocket vers l'Est et prendre la seed
+    - _Boss::Talus::Battle:
+       coord: [-1364,100,-0789]
+    - Gleeok Bridge:
+       icon: lieux
+       coord: [-1310.5,150,-787]    
+    - _Korok::HF15:
+       notes: Pocket Rocket vers le Nord
+    - _Well::MountDaphnes:
+       notes: Pocket Rocket/Jetpack au Nord Est
+    - _Korok::HF10::End:
+       notes: Pokcet Rocket et drop le Korok a son reuf
+    - _Korok::LL61:
+       notes: Pocket Rocket au Est
+    - _Korok::LL59:
+       notes: Pocket Rocket au Nord Est et tirer sous le pont sur le gland
+    - Fierce Deity Boots:
+       notes: Clip au niveau de la maison abandonnée puis jetpack aller vers le Sud Ouest
+       coord: [-1108,100,  -0546]
+       icon: CHEST
+       comment: Revenir in bounce avec un stick et le lieux "Mount Daphnes" doit être découvert en faisant le clip et équipé les boots
+    - _Bubbulfrog::AncientTreeStumpCave:
+       notes: Après avoir pris les boots tirer flèches avec canon puis descendre tout en bas et retirer flèche sur les lianes puis tuer le frog
+    - _Cave::Enter::AncientTreeStump:
+       notes: Ascend a l'entrée de la room du Frog puis en pocket rocket prendre la cave a l'Ouest qui est dans le tron
+    - _Korok::LL55:
+       notes: Après avoir pris faire le korok avec Jetpack
+    - Dormir pour la nuit:
+       icon: dodo
+    - _Korok::LL52:
+       notes: Pocket Rocket vers le Nord Est avec Jetpack
+    - _Boss::Hinox::Stal:
+       coord: [-1177,100,-0115]
+       notes: Pocket Rocket vers le Nord Ouest et tuer l'Hinox
+    - _Korok::LL51:
+       notes: Pocket Rocket vers le Sud Ouest 
+       comment: Faire attention que le lieux "Sage Temple Ruins" soit découvert
+    - _Cave::Enter::SageTemple:
+       notes: Pocket Rocket vers le Sud Ouest et entrer dans la cave
+    - _Bubbulfrog::SageTempleCave:
+       notes: Tirer des canons sur les rocher a gauche et après ascend le batiments puis tuer le frog
+    - _Korok::HF05:
+       notes: Pocket Rocket vers le Sud
+    - Addison:
+       icon: npc
+       coord: [-1603,100,  -0490]
+       notes: Pocket Rocket vers l'Ouest et mettre hover stone sous le paneau
+    - _Korok::HF02:
+       notes: Pocket Rocket vers le Nord Ouest 
+    - _Korok::HF01::Start:
+       notes: Pocket Rocket au Nord Ouest et Jetpack puis ABCS le korok
+    - _Korok::HF01::End:
+       notes: Pocket Rocket vers son pote
+    - _Shrine::Sonapan:
+       notes: Pocket Rocket vers le shrine et le finir en pocket rocket
+    - _Korok::HF04:
+       notes: Pocket Rocket vers le Sud Ouest et tirer une flèche dans le tron
+    - _Korok::HF11:
+       notes: Pocket Rocket vers le Sud et Jetpack
+    - _Korok::HF14:
+       notes: Pocket rocket vers le Sud Est 
+       comment: /!\ que le lieux "Sanidin Park Ruins" soit découvert
+    - StalHorse:
+       coord: [-1687,100,-681]
+       icon: monstres
+       notes: Monter sur le Stalhorse 
+       comment: Si il ne fait pas nuit dormir jusqu'a la nuit
+    - _Korok::HF24:
+       notes: Descendre du StalHorse et donner une golden apple puis remonter sur le stalhorse
+    - Complete The Horse Guard's Request:
+       movements:
+        - [-1568,100,-1013]
+        - [-1448.25,100,-1254.375]
+       icon: quest
+       notes: Aller au relai avec le cheval et parler a Toffa pour completer la quête
+    - A Picture for Outskirt Stable:
+       coord: [-1438.5,100,-1265.875]   
+       icon: quest
+       notes: Parler au mec du relai et après aller au niveau du cadre pour mettre la photo
+    - _Well::OutskirtStable:
+       notes: Pocket rocket vers le well et marcher a coter
+    - _Korok::HF35:
+       notes: Pocket Rocket vers l'Est et tirer une flèche dans le tron
+    - The Beckoning Woman:
+       notes: Parler a Pen
+       comment: Avant de parler a Pen achter a Terry toutes les flèches et les grenouilles tempo 
+    - _Shrine::Tsutsuum:
+       notes: Pocket Rocket vers le Shrine et setup Zonai Glitch Storage sur un stick puis une foi sclip le shrine pocket rocket vers la droite puis a gauche et revenir in bounce une fois au dessus du Monk
+    
